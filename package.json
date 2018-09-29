@@ -31,9 +31,10 @@
     "npm": "6.x"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
     "gatsby": "next",
+    "gatsby-plugin-glamor": "^2.0.5",
     "gatsby-plugin-react-helmet": "next",
+    "glamor": "^2.20.40",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-helmet": "^5.2.0"

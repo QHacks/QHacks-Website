@@ -37,63 +37,6 @@ exports[`IndexPage renders correctly 1`] = `
     }
     title="QHacks | Queen's University | Winter 2019"
   />
-  <section
-    id="headerLanding"
-  >
-    <div
-      id="headerTitle"
-    >
-      <img
-        className="logo"
-        src="test-file-stub"
-      />
-      <h2
-        className="subTitle"
-      >
-        Queen's University | February 1
-        <sup>
-          st
-        </sup>
-         - 3
-        <sup>
-          rd
-        </sup>
-        , 2019
-      </h2>
-      <div
-        className="btnRow"
-      >
-        <a
-          className="btn btnMain yellowBtn"
-          href="https://2018.qhacks.io"
-        >
-          QHacks 2018
-        </a>
-        <a
-          className="btn btnMain orangeBtn"
-          href="mailto:partnership@qhacks.io"
-        >
-          Partner
-        </a>
-      </div>
-      <div
-        className="talkToUs"
-      >
-        Talk to us at:
-         
-        <a
-          className="frontContactLink"
-          href="mailto:hello@qhacks.io"
-        >
-          hello@qhacks.io
-        </a>
-      </div>
-      <div
-        className="talkToUs"
-      >
-        This year's website is under construction!
-      </div>
-    </div>
-  </section>
+  <Landing />
 </div>
 `;

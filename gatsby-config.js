@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'QHacks Website'
+    title: "QHacks Website"
   },
-  plugins: ['gatsby-plugin-react-helmet']
+  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-glamor"]
 };

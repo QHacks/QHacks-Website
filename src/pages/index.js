@@ -1,10 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
-import classNames from "classnames";
-import styles from "./index.module.css";
-import logo from "../assets/img/qhacksLogo.svg";
+import "./index.css";
 import favicon from "../assets/img/favicon.ico";
-
+import Landing from "../components/Landing";
 export default () => (
   <div>
     <Helmet
@@ -36,36 +34,6 @@ export default () => (
         }
       ]}
     />
-    <section id={styles.headerLanding}>
-      <div id={styles.headerTitle}>
-        <img className={styles.logo} src={logo} />
-        <h2 className={styles.subTitle}>
-          Queen's University | February 1<sup>st</sup> - 3<sup>rd</sup>, 2019
-        </h2>
-        <div className={styles.btnRow}>
-          <a
-            href="https://2018.qhacks.io"
-            className={classNames(styles.btn, styles.btnMain, styles.yellowBtn)}
-          >
-            QHacks 2018
-          </a>
-          <a
-            href="mailto:partnership@qhacks.io"
-            className={classNames(styles.btn, styles.btnMain, styles.orangeBtn)}
-          >
-            Partner
-          </a>
-        </div>
-        <div className={styles.talkToUs}>
-          Talk to us at:{" "}
-          <a className={styles.frontContactLink} href="mailto:hello@qhacks.io">
-            hello@qhacks.io
-          </a>
-        </div>
-        <div className={styles.talkToUs}>
-          This year's website is under construction!
-        </div>
-      </div>
-    </section>
+    <Landing />
   </div>
 );
