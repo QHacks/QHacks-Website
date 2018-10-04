@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import "./index.css";
 import favicon from "../assets/img/favicon.ico";
 import Landing from "../components/Landing";
+import MailingListSignup from "../components/MailingListSignup";
 
 export default () => (
   <div>
@@ -40,5 +41,6 @@ export default () => (
       ]}
     />
     <Landing />
+    <MailingListSignup />
   </div>
 );

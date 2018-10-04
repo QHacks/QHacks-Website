@@ -10,12 +10,35 @@ exports[`ActionButton renders correctly 1`] = `
         "transition": "0.5s",
       },
       "backgroundColor": "#000000",
+      "border": "none",
+      "borderRadius": "4px",
+      "color": "#ffffff",
+      "fontSize": "18px",
+      "margin": "10px",
+      "padding": "14px 20px",
+      "textTransform": "uppercase",
+    }
+  }
+/>
+`;
+
+exports[`ActionButton renders correctly 2`] = `
+<button
+  css={
+    Object {
+      ":hover": Object {
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "transition": "0.5s ease",
+      },
+      "backgroundColor": "#000000",
       "border": "solid 2px #ffffff",
       "borderRadius": "28px",
       "color": "#ffffff",
       "fontSize": "18px",
       "margin": "10px",
-      "padding": "10px",
+      "padding": "14px 50px",
+      "textTransform": "uppercase",
     }
   }
 >

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpForm renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <input
+    css={
+      Object {
+        "border": "none",
+        "borderRadius": "4px",
+        "fontSize": "18px",
+        "margin": "8px",
+        "marginRight": "4px",
+        "minWidth": "50%",
+        "padding": "14px 16px",
+        "width": "300px",
+      }
+    }
+    placeholder="Enter your email address"
+    type="text"
+  />
+  <ActionButton
+    backgroundColor="white"
+    foregroundColor="#00205b"
+    style={
+      Object {
+        "border": "none",
+        "borderRadius": "4px",
+        "fontSize": "18px",
+        "margin": "8px",
+        "marginLeft": "4px",
+        "padding": "14px 16px",
+      }
+    }
+    type="rect"
+  >
+    SIGN UP
+  </button>
+</div>
+`;
