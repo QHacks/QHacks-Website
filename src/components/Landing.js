@@ -16,9 +16,7 @@ const breadCrumbs = [
 ];
 
 const loginButtonCSS = {
-  marginTop: "40px",
-  width: "176px",
-  height: "48px"
+  marginTop: "40px"
 };
 
 const Landing = () => (
@@ -81,8 +79,10 @@ const Landing = () => (
           backgroundColor="#ffffff"
           foregroundColor="#00205b"
           style={loginButtonCSS}
-          text="login"
-        />
+          type="rounded"
+        >
+          Login
+        </ActionButton>
       </div>
       <img
         src={landingImg}

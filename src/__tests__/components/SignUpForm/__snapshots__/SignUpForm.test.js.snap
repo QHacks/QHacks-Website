@@ -39,7 +39,7 @@ exports[`SignUpForm renders correctly 1`] = `
     }
     type="rect"
   >
-    SIGN UP
-  </button>
+    Sign Up
+  </ActionButton>
 </div>
 `;

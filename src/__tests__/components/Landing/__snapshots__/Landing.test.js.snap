@@ -93,13 +93,13 @@ exports[`Landing renders correctly 1`] = `
         foregroundColor="#00205b"
         style={
           Object {
-            "height": "48px",
             "marginTop": "40px",
-            "width": "176px",
           }
         }
-        text="login"
-      />
+        type="rounded"
+      >
+        Login
+      </ActionButton>
     </div>
     <img
       css={
