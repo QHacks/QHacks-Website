@@ -24,6 +24,10 @@ button {
   font-weight: bold;
 }
 
+input {
+  font-family: "Encode Sans", sans-serif;
+}
+
 h1 {
   font-size: 32px;
   color: #00205b;
