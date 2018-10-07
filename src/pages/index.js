@@ -4,6 +4,7 @@ import "./index.css";
 import favicon from "../assets/img/favicon.ico";
 import Landing from "../components/Landing";
 import MailingListSignup from "../components/MailingListSignup";
+import SellingPoints from "../components/SellingPoints";
 
 export default () => (
   <div>
@@ -42,5 +43,6 @@ export default () => (
     />
     <Landing />
     <MailingListSignup />
+    <SellingPoints />
   </div>
 );
