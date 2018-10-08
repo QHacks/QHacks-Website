@@ -5,7 +5,8 @@ import judges from "../assets/img/judges.svg";
 import schools from "../assets/img/schools.svg";
 import applications from "../assets/img/applications.svg";
 import challenges from "../assets/img/challenges.svg";
-import { css, nthChild } from "glamor";
+import SellingPointsIcons from "./SellingPointsIcons.js";
+
 const twoColumnStyle = {
   display: "flex",
   justifyContent: "center",
@@ -15,19 +16,12 @@ const twoColumnStyle = {
   padding: "0 3%"
 };
 
-const flexChildStyle = css(
-  {
-    flex: 1,
-    textAlign: "center",
-    minWidth: "300px"
-  },
-  nthChild("2n", {
-    margin: "0 28px 32px 28px"
-  }),
-  nthChild("2n-1", {
-    margin: "0 28px 32px 28px"
-  })
-);
+const flexChildStyle = {
+  flex: 1,
+  textAlign: "center",
+  minWidth: "300px",
+  margin: "0 28px 32px 28px"
+};
 
 const detailsStyle = {
   maxWidth: "510px"
@@ -46,37 +40,6 @@ const imgStyle = {
   maxWidth: "475px"
 };
 
-const Icons = (props) => (
-  <div
-    css={{
-      display: "inline-flex",
-      alignItems: "center",
-      width: "calc(100% - 200px)",
-      minWidth: "300px"
-    }}
-  >
-    {props.list.map((item) => (
-      <div
-        key={item.text}
-        css={{
-          flex: 1
-        }}
-      >
-        <img src={item.icon} />
-        <div
-          css={{
-            fontWeight: "bold",
-            padding: "6px 0"
-          }}
-        >
-          {item.number}+
-        </div>
-        <div>{item.text}</div>
-      </div>
-    ))}
-  </div>
-);
-
 const SellingPoints = () => (
   <div css={{ padding: "143px 0" }}>
     <div
@@ -85,16 +48,17 @@ const SellingPoints = () => (
         flexWrap: "wrap"
       }}
     >
-      <div {...flexChildStyle} css={{ ...detailsStyle }}>
+      <div css={{ ...flexChildStyle, ...detailsStyle }}>
         <h1>Grow Your Network.</h1>
         <p css={blurbStyle}>
           QHacks was first held in 2016 with a mission to advocate and incubate
-          the tech community at Queen's University and throughout Canada. Going
-          into our third year we have been aggressively growing to become one of
-          the highest quality and exciting hackathons in North America. Over the
-          weekend, immerse yourself in the tech community and meet new people!
+          the tech community at Queen&#39;s University and throughout Canada.
+          Going into our third year we have been aggressively growing to become
+          one of the highest quality and exciting hackathons in North America.
+          Over the weekend, immerse yourself in the tech community and meet new
+          people!
         </p>
-        <Icons
+        <SellingPointsIcons
           list={[
             {
               icon: applications,
@@ -114,7 +78,7 @@ const SellingPoints = () => (
           ]}
         />
       </div>
-      <div {...flexChildStyle} css={{ ...imgStyle }} />
+      <div css={{ ...flexChildStyle, ...imgStyle }} />
     </div>
     <div
       css={{
@@ -123,8 +87,8 @@ const SellingPoints = () => (
         marginBottom: 0
       }}
     >
-      <div {...flexChildStyle} css={{ ...imgStyle }} />
-      <div {...flexChildStyle} css={{ ...detailsStyle }}>
+      <div css={{ ...flexChildStyle, ...imgStyle }} />
+      <div css={{ ...flexChildStyle, ...detailsStyle }}>
         <h1>Showcase to Experts.</h1>
         <p css={blurbStyle}>
           This year, we have a colourful array of mentors, speakers, sponsors
@@ -134,7 +98,7 @@ const SellingPoints = () => (
           on a roadblock? Did your stepper motor malfunction? Not to worry,
           there will always be a helping hand at the ready.
         </p>
-        <Icons
+        <SellingPointsIcons
           list={[
             {
               icon: mentors,
