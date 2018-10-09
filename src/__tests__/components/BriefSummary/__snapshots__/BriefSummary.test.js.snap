@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BriefSummary renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "@media(max-width: 715px)": Object {
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+      },
+      "background": "#f8f8f8",
+      "padding": "80px 145px 80px 145px",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "@media(max-width: 1115px)": Object {
+          "display": "block",
+        },
+        "background": "#ffffff",
+        "border": "solid 1px #e8e8e8",
+        "borderRadius": "8px",
+        "boxShadow": "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
+        "display": "grid",
+        "gridTemplateColumns": "auto auto",
+        "padding": "80px 55px 80px 55px",
+      }
+    }
+  >
+    <div
+      css={
+        Object {
+          "@media (max-width: 920px)": Object {
+            "paddingRight": "0px",
+          },
+          "paddingRight": "43px",
+        }
+      }
+    >
+      <h1>
+        Dream It. Build It.
+      </h1>
+      <div
+        css={
+          Object {
+            "display": "grid",
+            "gridColumnGap": "4px",
+            "gridTemplateColumns": "auto auto 1fr",
+            "padding": "13px 0px 27px 0px",
+          }
+        }
+      >
+        <div
+          data-css-g4rvbm=""
+        />
+        <div
+          data-css-129fazg=""
+        />
+        <div
+          data-css-1ectg3h=""
+        />
+      </div>
+      <p
+        css={
+          Object {
+            "lineHeight": "24px",
+          }
+        }
+      >
+        QHacks 2018 is back for another year of collaboration, ideation, and creativity! More than 500 students from across North America will come together on February 2nd-4th for a weekend of awesome hacking. Attend workshops, play with hardware, take part in hacker challenges, and meet some new friends while turning your dreams into reality. Out-of-the-box thinkers, creatives, and innovators from all faculties and skill levels are encouraged to attend. We can't wait to see you there!
+      </p>
+    </div>
+    <div
+      css={
+        Object {
+          "@media(max-width: 1115px)": Object {
+            "height": "40vw",
+          },
+          "@media(max-width: 715px)": Object {
+            "height": "50vw",
+          },
+          "margin": "auto auto auto auto",
+        }
+      }
+    >
+      <iframe
+        allow="autoplay; encrypted-media"
+        allowfullscreen={true}
+        css={
+          Object {
+            "@media(max-width: 1115px)": Object {
+              "height": "100%",
+              "paddingTop": "40px",
+              "width": "100%",
+            },
+            "@media(max-width: 1215px)": Object {
+              "height": "225px",
+              "width": "400px",
+            },
+            "height": "281px",
+            "width": "500px",
+          }
+        }
+        frameborder="0"
+        src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&controls=0&showinfo=0"
+      />
+    </div>
+  </div>
+</div>
+`;

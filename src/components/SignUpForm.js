@@ -13,7 +13,7 @@ const buttonStyles = {
   marginLeft: "4px"
 };
 
-const SignUpForm = (props) => (
+const SignUpForm = () => (
   <div
     css={{
       textAlign: "center"
