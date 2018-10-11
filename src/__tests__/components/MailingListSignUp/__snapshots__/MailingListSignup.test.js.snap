@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MailingListSignup renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "alignItems": "center",
+      "background": "#C12232 url(test-file-stub) no-repeat center center",
+      "backgroundSize": "cover",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "300px",
+      "padding": "5%",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    <p
+      css={
+        Object {
+          "fontSize": "22px",
+          "fontWeight": "bold",
+          "lineHeight": "28px",
+          "marginBottom": "28px",
+          "textAlign": "center",
+        }
+      }
+    >
+      Sign up for our mailing list to receive important QHacks announcements!
+    </p>
+    <SignUpForm />
+  </div>
+</div>
+`;

@@ -16,9 +16,7 @@ const breadCrumbs = [
 ];
 
 const loginButtonCSS = {
-  marginTop: "40px",
-  width: "176px",
-  height: "48px"
+  marginTop: "40px"
 };
 
 const Landing = () => (
@@ -28,7 +26,8 @@ const Landing = () => (
       width: "100%",
       height: "100vh",
       minHeight: "700px",
-      background: `url(${backgroundCubes}) no-repeat center center fixed`,
+      maxHeight: "800px",
+      background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover"
     }}
   >
@@ -60,7 +59,8 @@ const Landing = () => (
           css={{
             paddingTop: "72px",
             paddingBottom: "24px",
-            height: ""
+            width: "100vw",
+            maxWidth: "300px"
           }}
         />
         <h2 css={{ color: "#00205b", fontWeight: 600 }}>
@@ -81,8 +81,10 @@ const Landing = () => (
           backgroundColor="#ffffff"
           foregroundColor="#00205b"
           style={loginButtonCSS}
-          text="login"
-        />
+          type="rounded"
+        >
+          Login
+        </ActionButton>
       </div>
       <img
         src={landingImg}

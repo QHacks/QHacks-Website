@@ -24,6 +24,14 @@ button {
   font-weight: bold;
 }
 
+input {
+  font-family: "Encode Sans", sans-serif;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
 h1 {
   font-size: 32px;
   color: #00205b;
@@ -64,4 +72,16 @@ a:focus {
 
 button:focus {
   outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

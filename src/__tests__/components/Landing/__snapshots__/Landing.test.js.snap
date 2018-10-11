@@ -5,9 +5,10 @@ exports[`Landing renders correctly 1`] = `
   className="landing"
   css={
     Object {
-      "background": "url(test-file-stub) no-repeat center center fixed",
+      "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",
       "height": "100vh",
+      "maxHeight": "800px",
       "minHeight": "700px",
       "width": "100%",
     }
@@ -57,9 +58,10 @@ exports[`Landing renders correctly 1`] = `
       <img
         css={
           Object {
-            "height": "",
+            "maxWidth": "300px",
             "paddingBottom": "24px",
             "paddingTop": "72px",
+            "width": "100vw",
           }
         }
         src="test-file-stub"
@@ -93,13 +95,13 @@ exports[`Landing renders correctly 1`] = `
         foregroundColor="#00205b"
         style={
           Object {
-            "height": "48px",
             "marginTop": "40px",
-            "width": "176px",
           }
         }
-        text="login"
-      />
+        type="rounded"
+      >
+        Login
+      </ActionButton>
     </div>
     <img
       css={
