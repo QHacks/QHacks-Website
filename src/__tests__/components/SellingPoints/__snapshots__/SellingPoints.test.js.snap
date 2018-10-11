@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellingPoints renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "padding": "143px 0",
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "marginBottom": "48px",
+        "padding": "0 3%",
+      }
+    }
+  >
+    <div
+      css={
+        Object {
+          "flex": 1,
+          "margin": "0 28px 32px 28px",
+          "maxWidth": "510px",
+          "minWidth": "300px",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h1>
+        Grow Your Network.
+      </h1>
+      <p
+        css={
+          Object {
+            "fontSize": "15px",
+            "lineHeight": "24px",
+            "margin": "32px auto",
+            "maxWidth": "500px",
+          }
+        }
+      >
+        QHacks was first held in 2016 with a mission to advocate and incubate the tech community at Queen's University and throughout Canada. Going into our third year we have been aggressively growing to become one of the highest quality and exciting hackathons in North America. Over the weekend, immerse yourself in the tech community and meet new people!
+      </p>
+      <SellingPointsIcons
+        list={
+          Array [
+            Object {
+              "icon": "test-file-stub",
+              "number": 1800,
+              "text": "Applications",
+            },
+            Object {
+              "icon": "test-file-stub",
+              "number": 25,
+              "text": "Schools",
+            },
+            Object {
+              "icon": "test-file-stub",
+              "number": 500,
+              "text": "Hackers",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      css={
+        Object {
+          "backgroundColor": "#515151",
+          "flex": 1,
+          "height": "320px",
+          "margin": "0 28px 32px 28px",
+          "maxWidth": "475px",
+          "minWidth": "300px",
+          "textAlign": "center",
+        }
+      }
+    />
+  </div>
+  <div
+    css={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexWrap": "wrap-reverse",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "marginBottom": 0,
+        "padding": "0 3%",
+      }
+    }
+  >
+    <div
+      css={
+        Object {
+          "backgroundColor": "#515151",
+          "flex": 1,
+          "height": "320px",
+          "margin": "0 28px 32px 28px",
+          "maxWidth": "475px",
+          "minWidth": "300px",
+          "textAlign": "center",
+        }
+      }
+    />
+    <div
+      css={
+        Object {
+          "flex": 1,
+          "margin": "0 28px 32px 28px",
+          "maxWidth": "510px",
+          "minWidth": "300px",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h1>
+        Showcase to Experts.
+      </h1>
+      <p
+        css={
+          Object {
+            "fontSize": "15px",
+            "lineHeight": "24px",
+            "margin": "32px auto",
+            "maxWidth": "500px",
+          }
+        }
+      >
+        This year, we have a colourful array of mentors, speakers, sponsors and other industry professionals. Chat one-on one with the likes of Microsoft, Telus, RBC and other big names with a sprinkling of those smaller tech startups we all love. Looking for some inspiration? Stuck on a roadblock? Did your stepper motor malfunction? Not to worry, there will always be a helping hand at the ready.
+      </p>
+      <SellingPointsIcons
+        list={
+          Array [
+            Object {
+              "icon": "test-file-stub",
+              "number": 40,
+              "text": "Mentors",
+            },
+            Object {
+              "icon": "test-file-stub",
+              "number": 20,
+              "text": "Judges",
+            },
+            Object {
+              "icon": "test-file-stub",
+              "number": 15,
+              "text": "Challenges",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

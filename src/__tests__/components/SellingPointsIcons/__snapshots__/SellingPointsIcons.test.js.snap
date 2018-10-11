@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellingPointsIcons renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "display": "grid",
+      "gridTemplateColumns": "1fr 1fr 1fr ",
+      "margin": "0 auto",
+      "minWidth": "300px",
+      "width": "calc(100% - 200px)",
+    }
+  }
+>
+  <div
+    key="Applications"
+  >
+    <img
+      src="test-file-stub"
+    />
+    <div
+      css={
+        Object {
+          "fontWeight": "bold",
+          "padding": "6px 0",
+        }
+      }
+    >
+      1800
+      +
+    </div>
+    <div>
+      Applications
+    </div>
+  </div>
+  <div
+    key="Schools"
+  >
+    <img
+      src="test-file-stub"
+    />
+    <div
+      css={
+        Object {
+          "fontWeight": "bold",
+          "padding": "6px 0",
+        }
+      }
+    >
+      25
+      +
+    </div>
+    <div>
+      Schools
+    </div>
+  </div>
+  <div
+    key="Hackers"
+  >
+    <img
+      src="test-file-stub"
+    />
+    <div
+      css={
+        Object {
+          "fontWeight": "bold",
+          "padding": "6px 0",
+        }
+      }
+    >
+      500
+      +
+    </div>
+    <div>
+      Hackers
+    </div>
+  </div>
+</div>
+`;
