@@ -52,6 +52,7 @@ exports[`TestimonialCard0 renders correctly 1`] = `
         style={
           Object {
             "display": "block",
+            "fontColor": "black",
             "fontSize": "20px",
             "marginBottom": "8px",
           }
@@ -70,14 +71,22 @@ exports[`TestimonialCard0 renders correctly 1`] = `
           Project:
         </span>
          
-        Dolores
+        <span
+          style={
+            Object {
+              "color": "#00205b",
+            }
+          }
+        >
+          Dolores
+        </span>
       </strong>
     </div>
   </div>
   <p
     style={
       Object {
-        "lineHeight": "1.6",
+        "lineHeight": "32px",
       }
     }
   >
@@ -148,6 +157,7 @@ exports[`TestimonialCard1 renders correctly 1`] = `
         style={
           Object {
             "display": "block",
+            "fontColor": "black",
             "fontSize": "20px",
             "marginBottom": "8px",
           }
@@ -166,14 +176,22 @@ exports[`TestimonialCard1 renders correctly 1`] = `
           Project:
         </span>
          
-        Test1
+        <span
+          style={
+            Object {
+              "color": "#00205b",
+            }
+          }
+        >
+          Test1
+        </span>
       </strong>
     </div>
   </div>
   <p
     style={
       Object {
-        "lineHeight": "1.6",
+        "lineHeight": "32px",
       }
     }
   >
