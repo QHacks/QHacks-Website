@@ -63,8 +63,8 @@ Utilize the scripts below in the root of the project to get started:
 
 `npm run cypress-tests`
 
->NOTE: This will start a server and host the website at the `baseURL` that
->Cypress requires and shut down the server once all the testing is complete.
+> NOTE: This will start a server and host the website at the `baseURL` that
+> Cypress requires and shut down the server once all the testing is complete.
 
 **Open the Cypress test runner:**
 
@@ -74,8 +74,8 @@ Utilize the scripts below in the root of the project to get started:
 
 `npm run cypress-run`
 
->NOTE: To run this you must have the website being served to the `baseURL` set
->in the Cypress config.
+> NOTE: To run this you must have the website being served to the `baseURL` set
+> in the Cypress config.
 
 **Run only the Cypress tests and record data to the Cypress dashboard:**
 

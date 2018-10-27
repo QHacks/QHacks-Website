@@ -10,14 +10,12 @@ Fixes:
 
 ### List of changes:
 
-  -
-  -
-  -
+- - -
 
 ## Pull Request Checklist:
 
-  - [ ] My submission passes all tests.
-  - [ ] I have lint my code locally prior to submission.
-  - [ ] I have written new unit tests for my core changes (where applicable).
-  - [ ] I have written browser integration tests for my core changes (where application).
-  - [ ] I have referenced all useful information (issues, tasks, etc) in the pull request.
+- [ ] My submission passes all tests.
+- [ ] I have lint my code locally prior to submission.
+- [ ] I have written new unit tests for my core changes (where applicable).
+- [ ] I have written browser integration tests for my core changes (where application).
+- [ ] I have referenced all useful information (issues, tasks, etc) in the pull request.

@@ -1,9 +1,9 @@
-describe('Window', () => {
+describe("Window", () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit("/");
   });
 
-  it('should have correct title', () => {
-    cy.title().should('equal', "QHacks | Queen's University | Winter 2019");
+  it("should have correct title", () => {
+    cy.title().should("equal", "QHacks | Queen's University | Winter 2019");
   });
 });

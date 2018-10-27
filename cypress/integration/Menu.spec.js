@@ -1,5 +1,5 @@
-describe('Menu', () => {
+describe("Menu", () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit("/");
   });
 });
