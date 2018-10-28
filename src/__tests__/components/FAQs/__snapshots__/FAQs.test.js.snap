@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FAQs renders correctly 1`] = `
-<div
+<section
   css={
     Object {
       "backgroundColor": "#ffffff",
@@ -18,7 +18,7 @@ exports[`FAQs renders correctly 1`] = `
             "paddingRight": "24px",
             "paddingTop": "64px",
           },
-          "padding": "110px 180px 114px 180px",
+          "padding": "110px 0px 114px 0px",
         }
       }
     >
@@ -424,5 +424,5 @@ exports[`FAQs renders correctly 1`] = `
       </div>
     </div>
   </_default>
-</div>
+</section>
 `;

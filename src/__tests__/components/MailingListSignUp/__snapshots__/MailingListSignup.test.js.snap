@@ -16,27 +16,29 @@ exports[`MailingListSignup renders correctly 1`] = `
     }
   }
 >
-  <div>
-    <p
-      css={
-        Object {
-          "fontSize": "22px",
-          "fontWeight": 700,
-          "lineHeight": "28px",
-          "marginBottom": "28px",
-          "textAlign": "center",
+  <_default>
+    <div>
+      <p
+        css={
+          Object {
+            "fontSize": "22px",
+            "fontWeight": 700,
+            "lineHeight": "28px",
+            "marginBottom": "28px",
+            "textAlign": "center",
+          }
         }
-      }
-      data-cy="mailing-list-cta"
-    >
-      Sign up for our mailing list to receive important QHacks announcements!
-    </p>
-    <SignUpForm
-      center={true}
-      dataCyButton="mailing-list-button"
-      dataCyInput="mailing-list-input"
-      hoverBackgroundColor="#00205b"
-    />
-  </div>
+        data-cy="mailing-list-cta"
+      >
+        Sign up for our mailing list to receive important QHacks announcements!
+      </p>
+      <SignUpForm
+        center={true}
+        dataCyButton="mailing-list-button"
+        dataCyInput="mailing-list-input"
+        hoverBackgroundColor="#00205b"
+      />
+    </div>
+  </_default>
 </div>
 `;

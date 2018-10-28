@@ -27,7 +27,7 @@ const BriefSummary = () => (
           display: "grid",
           gridTemplateColumns: "auto auto",
           padding: "80px 55px 80px 55px",
-          margin: "0 80px 0 80px",
+          margin: "0 40px 0 40px",
           borderRadius: "8px",
           boxShadow: "4px 9px 40px 2px rgba(7, 16, 75, 0.1)",
           border: "solid 1px #e8e8e8",

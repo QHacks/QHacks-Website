@@ -1,33 +1,21 @@
 import React from "react";
-import logo from "../assets/img/colored.svg";
-import word from "../assets/img/wordmark.svg";
-import banner from "../assets/img/mlhLogo.svg";
-import backgroundCubes from "../assets/img/backgroundCubes.svg";
-import landingImg from "../assets/img/landingImg.svg";
-import ActionButton from "./ActionButton";
 import Header from "./Header";
+import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
-const menuItems = [
-  "about",
-  "speakers",
-  "schedule",
-  "testimonials",
-  "sponsors",
-  "faq"
-];
-
-const loginButtonCSS = {
-  marginTop: "24px"
-};
+import logo from "../assets/img/colored.svg";
+import word from "../assets/img/wordmark.svg";
+import mlhLogo from "../assets/img/mlhLogo.svg";
+import landingImg from "../assets/img/landingImg.svg";
+import backgroundCubes from "../assets/img/backgroundCubes.svg";
 
 const Landing = () => (
   <div
     css={{
       width: "100%",
       height: "100vh",
-      minHeight: "700px",
-      maxHeight: "850px",
+      minHeight: "790px",
+      maxHeight: "790px",
       background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
@@ -35,7 +23,7 @@ const Landing = () => (
       }
     }}
   >
-    <Header menuItems={menuItems} />
+    <Header />
     <ContentWrapper>
       <div
         css={{
@@ -49,28 +37,31 @@ const Landing = () => (
       >
         <div
           css={{
-            "@media(min-width: 820px)": {
-              marginLeft: "80px",
-              paddingRight: "50px",
-              paddingLeft: "0px"
-            },
             paddingLeft: "42px",
             paddingRight: "42px",
-            paddingTop: "110px"
+            paddingTop: "110px",
+            "@media(min-width: 820px)": {
+              paddingRight: "50px",
+              paddingLeft: "0px"
+            }
           }}
         >
           <img
             data-cy="qhacks-crown"
             src={logo}
             width="170px"
-            css={{ "@media(max-width: 820px)": { display: "none" } }}
+            css={{ "@media(max-width: 820px)": {
+              display: "none" }
+            }}
           />
           <img
             src={landingImg}
             css={{
               width: "75vw",
               maxWidth: "350px",
-              "@media(min-width: 820px)": { display: "none" }
+              "@media(min-width: 820px)": {
+                display: "none"
+              }
             }}
           />
           <br />
@@ -104,11 +95,13 @@ const Landing = () => (
             Queen’s University • February 1-3, 2019
           </h2>
           <img
-            data-cy="mlh-banner"
-            src={banner}
+            data-cy="mlh-logo"
+            src={mlhLogo}
             css={{
               width: "189px",
-              "@media(max-width: 820px)": { width: "132px" }
+              "@media(max-width: 820px)": {
+                width: "132px"
+              }
             }}
           />
           <h2
@@ -132,18 +125,18 @@ const Landing = () => (
             dataCy="login-button"
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
-            style={loginButtonCSS}
+            style={{ marginTop: "24px" }}
             type="rounded"
           >
             Login
           </ActionButton>
         </div>
+
         <div
           css={{
             position: "relative",
             paddingTop: "110px",
-            textAlign: "right",
-            marginRight: "80px"
+            textAlign: "right"
           }}
         >
           <img

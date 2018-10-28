@@ -1,9 +1,19 @@
 import React, { Component } from "react";
-import Menu from "./Menu";
-import MobileMenu from "./MobileMenu";
+
 import ContentWrapper from "./ContentWrapper";
+import MobileMenu from "./MobileMenu";
+import Menu from "./Menu";
 
 let prevScrollY = 0;
+
+const menuItems = [
+  "about",
+  "speakers",
+  "schedule",
+  "testimonials",
+  "sponsors",
+  "faq"
+];
 
 class Header extends Component {
   constructor(props) {
@@ -76,11 +86,11 @@ class Header extends Component {
               }}
             >
               <Menu
-                menuItems={this.props.menuItems}
+                menuItems={menuItems}
                 imgCss={this.state.isLogoVisible}
               />
               <MobileMenu
-                menuItems={this.props.menuItems}
+                menuItems={menuItems}
                 isMenuVisible={this.state.isMobileMenuVisible}
                 toggleMenu={this.onMobileMenuClicked}
               />

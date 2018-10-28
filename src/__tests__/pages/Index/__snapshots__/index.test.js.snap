@@ -38,6 +38,34 @@ exports[`IndexPage renders correctly 1`] = `
           "content": "width=device-width, initial-scale=1.0",
           "name": "viewport",
         },
+        Object {
+          "content": "website",
+          "property": "og:type",
+        },
+        Object {
+          "content": "https://qhacks.io/",
+          "property": "og:url",
+        },
+        Object {
+          "content": "QHacks | Queen's University | Winter 2019",
+          "property": "og:title",
+        },
+        Object {
+          "content": "",
+          "property": "og:image",
+        },
+        Object {
+          "content": "QHacks is back for round four! We're bringing in students from all over North America to come together for a wild 36 hours - designing, developing, demoing, cup-stacking, and foosball-playing at our home base at Queen's University. Whether you're a first timer or a seasoned veteran, QHacks definitely has something to satisfy your interests. This weekend is about inclusiveness for all disciplines - students from any level of skill, from any field of study are encouraged to bring their innovative ideas for a weekend of creative problem solving! The only prerequisites for this weekend are a love for tech and drive to learn.",
+          "property": "og:description",
+        },
+        Object {
+          "content": "QHacks",
+          "property": "og:site_name",
+        },
+        Object {
+          "content": "en_US",
+          "property": "og:locale",
+        },
       ]
     }
     title="QHacks | Queen's University | Winter 2019"

@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About renders correctly 1`] = `
-<div
+<section
   id="about"
 >
   <BriefSummary />
   <SellingPoints />
-</div>
+</section>
 `;

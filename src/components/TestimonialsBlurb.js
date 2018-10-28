@@ -22,7 +22,6 @@ const TestimonialsBlurb = (props) => {
         position: "absolute",
         top: 0,
         left: 0,
-        paddingLeft: "180px",
         display: "flex",
         alignItems: "center",
         justifyContent: "right"

@@ -185,6 +185,7 @@ class EventSchedule extends Component {
         <h3
           {...css({
             textTransform: "uppercase",
+            color: "#00205b",
             marginLeft: "16px",
             "@media(max-width: 760px)": { marginLeft: 0 },
             fontWeight: 800

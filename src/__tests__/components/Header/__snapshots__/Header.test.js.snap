@@ -33,9 +33,12 @@ exports[`Header renders correctly 1`] = `
           imgCss={false}
           menuItems={
             Array [
-              "b1",
-              "b2",
-              "b3",
+              "about",
+              "speakers",
+              "schedule",
+              "testimonials",
+              "sponsors",
+              "faq",
             ]
           }
         />
@@ -43,9 +46,12 @@ exports[`Header renders correctly 1`] = `
           isMenuVisible={false}
           menuItems={
             Array [
-              "b1",
-              "b2",
-              "b3",
+              "about",
+              "speakers",
+              "schedule",
+              "testimonials",
+              "sponsors",
+              "faq",
             ]
           }
           toggleMenu={[Function]}

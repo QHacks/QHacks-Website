@@ -75,19 +75,14 @@ const [smallerScreens, largerScreens] = [
 ];
 
 const Footer = () => (
-  <div css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
+  <footer css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
           display: "grid",
-          [largerScreens]: {
-            marginLeft: "80px",
-            marginRight: "80px"
-          },
           gridTemplateColumns: "auto auto auto",
           paddingTop: "80px",
           " h3": {
-            color: "inherit",
             textTransform: "uppercase"
           },
           [smallerScreens]: {
@@ -327,7 +322,7 @@ const Footer = () => (
         </div>
       </div>
     </ContentWrapper>
-  </div>
+  </footer>
 );
 
 export default Footer;

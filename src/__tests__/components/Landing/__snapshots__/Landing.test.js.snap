@@ -10,24 +10,13 @@ exports[`Landing renders correctly 1`] = `
       "background": "url(test-file-stub) no-repeat center center",
       "backgroundSize": "cover",
       "height": "100vh",
-      "maxHeight": "850px",
-      "minHeight": "700px",
+      "maxHeight": "790px",
+      "minHeight": "790px",
       "width": "100%",
     }
   }
 >
-  <Header
-    menuItems={
-      Array [
-        "about",
-        "speakers",
-        "schedule",
-        "testimonials",
-        "sponsors",
-        "faq",
-      ]
-    }
-  />
+  <Header />
   <_default>
     <div
       css={
@@ -45,7 +34,6 @@ exports[`Landing renders correctly 1`] = `
         css={
           Object {
             "@media(min-width: 820px)": Object {
-              "marginLeft": "80px",
               "paddingLeft": "0px",
               "paddingRight": "50px",
             },
@@ -122,7 +110,7 @@ exports[`Landing renders correctly 1`] = `
               "width": "189px",
             }
           }
-          data-cy="mlh-banner"
+          data-cy="mlh-logo"
           src="test-file-stub"
         />
         <h2
@@ -162,7 +150,6 @@ exports[`Landing renders correctly 1`] = `
       <div
         css={
           Object {
-            "marginRight": "80px",
             "paddingTop": "110px",
             "position": "relative",
             "textAlign": "right",
