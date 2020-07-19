@@ -98,7 +98,7 @@ const Sponsors = () => (
                   alt=""
                 />
               </SponsorLink>
-              
+
               <SponsorLink url="https://www.sunlife.ca/">
                 <img
                   css={{
@@ -134,9 +134,9 @@ const Sponsors = () => (
               </SponsorLink>
 
             </div>
-          
-          {/* Mega */}
-          <div
+
+            {/* Mega */}
+            <div
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr",
@@ -149,9 +149,9 @@ const Sponsors = () => (
               }}
             >
 
-            {/* Mega Row 1 */}
+              {/* Mega Row 1 */}
 
-            <SponsorLink url="http://td.com/">
+              <SponsorLink url="http://td.com/">
                 <img
                   src={tdLogo}
                   css={{
@@ -227,223 +227,223 @@ const Sponsors = () => (
 
             </div>
 
-          {/* Startup */}
-          <div
-            css={{
-              ">div.fourCol": {
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr",
-                marginBottom: "40px",
-                marginLeft: "auto",
-                marginRight: "auto",
-                "@media(max-width: 920px)": {
+            {/* Startup */}
+            <div
+              css={{
+                ">div.fourCol": {
+                  display: "grid",
                   gridTemplateColumns: "1fr 1fr 1fr",
-                  width: "80%",
+                  marginBottom: "40px",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  marginBottom: "10px"
-                },
-                "@media(max-width: 715px)": {
-                  gridTemplateColumns: "1fr",
-                  width: "90%",
-                  marginBottom: "0px"
+                  "@media(max-width: 920px)": {
+                    gridTemplateColumns: "1fr 1fr 1fr",
+                    width: "80%",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    marginBottom: "10px"
+                  },
+                  "@media(max-width: 715px)": {
+                    gridTemplateColumns: "1fr",
+                    width: "90%",
+                    marginBottom: "0px"
+                  }
                 }
-              }
-            }}
-          >
-            {/* Startup Row 1 */}
-            <div className="fourCol">
+              }}
+            >
+              {/* Startup Row 1 */}
+              <div className="fourCol">
 
-            <SponsorLink url="https://www.voiceflow.com/">
-                <img
-                  src={voiceflowLogo}
-                  css={{
-                    width: "200px",
-                    marginTop: "20px",
-                    marginRight: "20px",
-                    "@media(max-width: 920px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      marginTop: "10px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      marginRight: "0px",
-                      marginTop: "10px"
-                    }
-                  }}
-                  alt="Voiceflow Logo"
-                />
-              </SponsorLink>
+                <SponsorLink url="https://www.voiceflow.com/">
+                  <img
+                    src={voiceflowLogo}
+                    css={{
+                      width: "200px",
+                      marginTop: "20px",
+                      marginRight: "20px",
+                      "@media(max-width: 920px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        marginTop: "10px"
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        marginRight: "0px",
+                        marginTop: "10px"
+                      }
+                    }}
+                    alt="Voiceflow Logo"
+                  />
+                </SponsorLink>
 
-            <SponsorLink url="https://ritual.co/">
-                <img
-                  src={ritualLogo}
-                  css={{
-                    width: "200px",
-                    marginTop: "20px",
-                    // marginRight: "20px",
-                    "@media(max-width: 920px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      marginTop: "10px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      // marginRight: "0px",
-                      marginTop: "10px"
-                    }
-                  }}
-                  alt="Ritual Logo"
-                />
-              </SponsorLink>
+                <SponsorLink url="https://ritual.co/">
+                  <img
+                    src={ritualLogo}
+                    css={{
+                      width: "200px",
+                      marginTop: "20px",
+                      // marginRight: "20px",
+                      "@media(max-width: 920px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        marginTop: "10px"
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        // marginRight: "0px",
+                        marginTop: "10px"
+                      }
+                    }}
+                    alt="Ritual Logo"
+                  />
+                </SponsorLink>
 
-              <SponsorLink url="https://sketch.com/">
-                <img
-                  src={sketchLogo}
-                  css={{
-                    width: "200px",
-                    marginTop: "20px",
-                    // marginRight: "20px",
-                    "@media(max-width: 920px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      marginTop: "10px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      // marginRight: "0px",
-                      marginTop: "10px"
-                    }
-                  }}
-                  alt="Sketch Logo"
-                />
-              </SponsorLink>
+                <SponsorLink url="https://sketch.com/">
+                  <img
+                    src={sketchLogo}
+                    css={{
+                      width: "200px",
+                      marginTop: "20px",
+                      // marginRight: "20px",
+                      "@media(max-width: 920px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        marginTop: "10px"
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        // marginRight: "0px",
+                        marginTop: "10px"
+                      }
+                    }}
+                    alt="Sketch Logo"
+                  />
+                </SponsorLink>
 
-              <SponsorLink url="https://www.wolfram.com/language/">
-                <img
-                  src={wolframLogo}
-                  css={{
-                    width: "230px",
-                    // marginRight: "10px",
-                    marginTop: "60px",
-                    "@media(max-width: 920px)": {
-                      width: "170px",
-                      paddingRight: "30px",
-                      marginBottom: "10px",
-                      // marginRight: "0px",
-                      marginLeft: "15px",
-                      // marginTop: "0px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "170px",
-                      marginBottom: "10px",
-                      marginRight: "0px",
-                      marginLeft: "30px",
-                      marginTop: "0px"
-                    }
-                  }}
-                  alt="Wolfram Language Logo"
-                />
-              </SponsorLink>
+                <SponsorLink url="https://www.wolfram.com/language/">
+                  <img
+                    src={wolframLogo}
+                    css={{
+                      width: "230px",
+                      // marginRight: "10px",
+                      marginTop: "60px",
+                      "@media(max-width: 920px)": {
+                        width: "170px",
+                        paddingRight: "30px",
+                        marginBottom: "10px",
+                        // marginRight: "0px",
+                        marginLeft: "15px",
+                        // marginTop: "0px"
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "170px",
+                        marginBottom: "10px",
+                        marginRight: "0px",
+                        marginLeft: "30px",
+                        marginTop: "0px"
+                      }
+                    }}
+                    alt="Wolfram Language Logo"
+                  />
+                </SponsorLink>
 
-              <SponsorLink url="https://mosaicmfg.com/">
-                <img
-                  src={mosaicLogo}
-                  css={{
-                    width: "230px",
-                    // marginRight: "10px",
-                    marginTop: "60px",
-                    "@media(max-width: 920px)": {
-                      width: "170px",
-                      paddingRight: "30px",
-                      // marginBottom: "10px",
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "170px",
-                      marginBottom: "10px",
-                      marginRight: "0px",
-                      marginLeft: "30px",
-                      marginTop: "0px"
-                    }
-                  }}
-                  alt="Mosaic Logo"
-                />
-              </SponsorLink>
+                <SponsorLink url="https://mosaicmfg.com/">
+                  <img
+                    src={mosaicLogo}
+                    css={{
+                      width: "230px",
+                      // marginRight: "10px",
+                      marginTop: "60px",
+                      "@media(max-width: 920px)": {
+                        width: "170px",
+                        paddingRight: "30px",
+                        // marginBottom: "10px",
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "170px",
+                        marginBottom: "10px",
+                        marginRight: "0px",
+                        marginLeft: "30px",
+                        marginTop: "0px"
+                      }
+                    }}
+                    alt="Mosaic Logo"
+                  />
+                </SponsorLink>
 
-              <SponsorLink url="http://rpabotpro.com/">
-                <img
-                  src={rpaBotProLogo}
-                  css={{
-                    width: "200px",
-                    marginRight: "10px",
-                    marginTop: "60px",
-                    "@media(max-width: 920px)": {
-                      width: "150px",
-                      paddingRight: "30px",
-                      marginBottom: "10px",
-                      // marginRight: "0px",
-                      marginLeft: "15px",
-                      // marginTop: "0px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "150px",
-                      marginBottom: "10px",
-                      marginRight: "0px",
-                      marginLeft: "30px",
-                      marginTop: "0px"
-                    }
-                  }}
-                  alt="RpaBotPro Logo"
-                />
-              </SponsorLink>
-            
-               </div>
+                <SponsorLink url="http://rpabotpro.com/">
+                  <img
+                    src={rpaBotProLogo}
+                    css={{
+                      width: "200px",
+                      marginRight: "10px",
+                      marginTop: "60px",
+                      "@media(max-width: 920px)": {
+                        width: "150px",
+                        paddingRight: "30px",
+                        marginBottom: "10px",
+                        // marginRight: "0px",
+                        marginLeft: "15px",
+                        // marginTop: "0px"
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "150px",
+                        marginBottom: "10px",
+                        marginRight: "0px",
+                        marginLeft: "30px",
+                        marginTop: "0px"
+                      }
+                    }}
+                    alt="RpaBotPro Logo"
+                  />
+                </SponsorLink>
+
               </div>
             </div>
+          </div>
 
-        {/* Partners */}
+          {/* Partners */}
 
-        <div
-          css={{
-            position: "relative",
-            zIndex: "9999",
-            paddingTop: "70px",
-            paddingBottom: "0px"
-          }}
-        >
-          <h1 css={{ paddingBottom: "40px" }}>Our Partners</h1>
-          <p
+          <div
             css={{
               position: "relative",
               zIndex: "9999",
-              fontWeight: "bold",
-              color: "#000000",
-              paddingBottom: "24px",
-              ">a": {
-                color: "#c81c2e",
-                textDecoration: "underline",
-                ":hover": { textDecoration: "none" }
-              }
+              paddingTop: "70px",
+              paddingBottom: "0px"
             }}
           >
-            Interested in partnering? Contact us at{" "}
-            <a
-              data-cy="partners-email-prompt"
-              href="mailto:partnership@qhacks.io"
+            <h1 css={{ paddingBottom: "40px" }}>Our Partners</h1>
+            <p
               css={{
+                position: "relative",
                 zIndex: "9999",
-                fontSize: "16px",
-                fontWeight: "bold"
+                fontWeight: "bold",
+                color: "#000000",
+                paddingBottom: "24px",
+                ">a": {
+                  color: "#c81c2e",
+                  textDecoration: "underline",
+                  ":hover": { textDecoration: "none" }
+                }
               }}
             >
-              partnership@qhacks.io
+              Interested in partnering? Contact us at{" "}
+              <a
+                data-cy="partners-email-prompt"
+                href="mailto:partnership@qhacks.io"
+                css={{
+                  zIndex: "9999",
+                  fontSize: "16px",
+                  fontWeight: "bold"
+                }}
+              >
+                angela@qhacks.io
             </a>
-          </p>
-          {/* <ActionButton
+            </p>
+            {/* <ActionButton
             backgroundColor="#f8f8f8"
             foregroundColor="#c81c2e"
             type="rounded"
@@ -451,17 +451,17 @@ const Sponsors = () => (
           >
             Partnership Package
           </ActionButton> */}
-        </div>
+          </div>
 
-        {/* School */}
-        <div
-          css={{
-            zIndex: "9999",
-            marginBottom: "100px"
-          }}
-        >
-          {/* School Row 1 */}
-          {/* <div
+          {/* School */}
+          <div
+            css={{
+              zIndex: "9999",
+              marginBottom: "100px"
+            }}
+          >
+            {/* School Row 1 */}
+            {/* <div
             css={{
               zIndex: "9999",
               display: "grid",
@@ -490,20 +490,20 @@ const Sponsors = () => (
             </SponsorLink>
           </div> */}
 
-          {/* School Row 2 */}
-          <div
-            css={{
-              zIndex: "9999",
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              marginBottom: "40px",
-              "@media(max-width: 820px)": {
-                gridTemplateColumns: "1fr",
-                marginBottom: "20px"
-              }
-            }}
-          >
-            {/* <SponsorLink url="http://www.cs.queensu.ca">
+            {/* School Row 2 */}
+            <div
+              css={{
+                zIndex: "9999",
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                marginBottom: "40px",
+                "@media(max-width: 820px)": {
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "20px"
+                }
+              }}
+            >
+              {/* <SponsorLink url="http://www.cs.queensu.ca">
               <img
                 src={schoolOfComputingLogo}
                 alt="Queen's School of Computing"
@@ -558,50 +558,50 @@ const Sponsors = () => (
               }
             }}
           > */}
-            <SponsorLink url="http://www.cs.queensu.ca">
-              <img
-                src={schoolOfComputingLogo}
-                alt="Queen's School of Computing"
-                css={{
-                  zIndex: "9999",
-                  marginTop: "20px",
-                  width: "400px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-              />
-            </SponsorLink>
-            <SponsorLink url="https://queensu.ca/innovationcentre">
-              <img
-                src={qicLogo}
-                css={{
-                  width: "400px",
-                  marginTop: "25px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-                alt="QIC Logo"
-              />
-            </SponsorLink>
-          </div>
-          
+              <SponsorLink url="http://www.cs.queensu.ca">
+                <img
+                  src={schoolOfComputingLogo}
+                  alt="Queen's School of Computing"
+                  css={{
+                    zIndex: "9999",
+                    marginTop: "20px",
+                    width: "400px",
+                    "@media(max-width: 980px)": {
+                      width: "310px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "250px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "230px"
+                    }
+                  }}
+                />
+              </SponsorLink>
+              <SponsorLink url="https://queensu.ca/innovationcentre">
+                <img
+                  src={qicLogo}
+                  css={{
+                    width: "400px",
+                    marginTop: "25px",
+                    "@media(max-width: 980px)": {
+                      width: "310px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "250px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "230px"
+                    }
+                  }}
+                  alt="QIC Logo"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* School Row 4 */}
-          {/* <div
+
+            {/* School Row 4 */}
+            {/* <div
             css={{
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
@@ -651,158 +651,158 @@ const Sponsors = () => (
             </SponsorLink>
           </div> */}
 
-          {/* School Row 5 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "40px",
-              "@media(max-width: 820px)": {
-                marginBottom: "20px"
-              }
-            }}
-          >
-            <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
-              <img
-                src={mmieLogo}
-                css={{
-                  width: "400px",
-                  marginTop: "25px",
-                  paddingBottom: "40px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-                alt="MMIE Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
-              <img
-                src={kingstonLogo}
-                css={{
-                  width: "180px",
-                  "@media(max-width: 980px)": {
-                    width: "150px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "120px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "100px"
-                  }
-                }}
-                alt="City of Kingston Logo"
-              />
-            </SponsorLink>
-          </div>
-
-          {/* School Row 6 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr 1fr",
-              marginBottom: "40px",
-              "@media(max-width: 570px)": {
+            {/* School Row 5 */}
+            <div
+              css={{
+                display: "grid",
                 gridTemplateColumns: "1fr",
-                marginBottom: "20px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.bloomberg.com/canada">
-              <img
-                src={bloombergLogo}
-                css={{
-                  width: "200px",
-                  marginTop: "30px",
-                  "@media(max-width: 980px)": {
-                    width: "180px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "160px",
-                    marginBottom: "10px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "130px"
-                  }
-                }}
-                alt="Bloomberg Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="http://hackp.ac/mlh-stickermule-hackathons">
-              <img
-                src={stickermuleLogo}
-                css={{
-                  width: "150px",
-                  "@media(max-width: 980px)": {
-                    width: "140px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "120px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "90px"
-                  }
-                }}
-                alt="Stickermule Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="https://education.github.com/pack">
-              <img
-                src={githubLogo}
-                css={{
-                  width: "150px",
-                  marginTop: "25px",
-                  "@media(max-width: 980px)": {
-                    width: "140px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "120px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "90px"
-                  }
-                }}
-                alt="GitHub Logo"
-              />
-            </SponsorLink>
-          </div>
+                marginBottom: "40px",
+                "@media(max-width: 820px)": {
+                  marginBottom: "20px"
+                }
+              }}
+            >
+              <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
+                <img
+                  src={mmieLogo}
+                  css={{
+                    width: "400px",
+                    marginTop: "25px",
+                    paddingBottom: "40px",
+                    "@media(max-width: 980px)": {
+                      width: "310px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "250px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "230px"
+                    }
+                  }}
+                  alt="MMIE Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
+                <img
+                  src={kingstonLogo}
+                  css={{
+                    width: "180px",
+                    "@media(max-width: 980px)": {
+                      width: "150px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "120px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "100px"
+                    }
+                  }}
+                  alt="City of Kingston Logo"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* School Row 6 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr"
-            }}
-          >
-            <SponsorLink url="https://mlh.io">
-              <img
-                src={mlhLogo}
-                css={{
-                  width: "150px",
-                  paddingBottom: "30px",
-                  "@media(max-width: 980px)": {
-                    width: "130px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "100px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "80px"
-                  }
-                }}
-                alt="MLH Logo"
-              />
-            </SponsorLink>
+            {/* School Row 6 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr",
+                marginBottom: "40px",
+                "@media(max-width: 570px)": {
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "20px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.bloomberg.com/canada">
+                <img
+                  src={bloombergLogo}
+                  css={{
+                    width: "200px",
+                    marginTop: "30px",
+                    "@media(max-width: 980px)": {
+                      width: "180px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "160px",
+                      marginBottom: "10px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "130px"
+                    }
+                  }}
+                  alt="Bloomberg Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="http://hackp.ac/mlh-stickermule-hackathons">
+                <img
+                  src={stickermuleLogo}
+                  css={{
+                    width: "150px",
+                    "@media(max-width: 980px)": {
+                      width: "140px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "120px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "90px"
+                    }
+                  }}
+                  alt="Stickermule Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://education.github.com/pack">
+                <img
+                  src={githubLogo}
+                  css={{
+                    width: "150px",
+                    marginTop: "25px",
+                    "@media(max-width: 980px)": {
+                      width: "140px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "120px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "90px"
+                    }
+                  }}
+                  alt="GitHub Logo"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* School Row 6 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr"
+              }}
+            >
+              <SponsorLink url="https://mlh.io">
+                <img
+                  src={mlhLogo}
+                  css={{
+                    width: "150px",
+                    paddingBottom: "30px",
+                    "@media(max-width: 980px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "100px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "80px"
+                    }
+                  }}
+                  alt="MLH Logo"
+                />
+              </SponsorLink>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </ContentWrapper>
   </section>
 );
