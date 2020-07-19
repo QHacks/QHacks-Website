@@ -237,7 +237,7 @@ const Footer = () => (
                 ":hover": {
                   color: "#ed253a"
                 },
-                [smallScreens]: {zIndex: "9999"}
+                [smallScreens]: { zIndex: "9999" }
               }
             }}
           >

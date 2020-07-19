@@ -2,10 +2,10 @@ import React from "react";
 
 const ActionButton = (props) => {
   const roundedStyles = {
-    borderRadius: "30px",
+    borderRadius: "28px",
     border: `solid 2px ${props.foregroundColor}`,
-    paddingLeft: "50px",
-    paddingRight: "50px",
+    paddingLeft: "55px",
+    paddingRight: "55px",
     "@media screen and (max-width: 450px)": {
       width: "92%",
       paddingLeft: "4%",
@@ -68,18 +68,18 @@ const ActionButton = (props) => {
       {props.children}
     </a>
   ) : (
-    <button
-      css={{
-        ...commonStyles,
-        ...props.style
-      }}
-      data-cy={props.dataCy}
-      disabled={props.disabled}
-      onClick={props.onClick}
-    >
-      {props.children}
-    </button>
-  );
+      <button
+        css={{
+          ...commonStyles,
+          ...props.style
+        }}
+        data-cy={props.dataCy}
+        disabled={props.disabled}
+        onClick={props.onClick}
+      >
+        {props.children}
+      </button>
+    );
 };
 
 export default ActionButton;

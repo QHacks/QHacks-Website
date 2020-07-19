@@ -4,6 +4,7 @@ import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
+import partnershipPackage from "../assets/partnershipPackage2021.pdf"
 import placeholder from "../assets/img/sponsors/placeholder.png";
 import sunlifeLogo from "../assets/img/sponsors/sunlife.png";
 import voiceflowLogo from "../assets/img/sponsors/voiceflow.jpeg";
@@ -27,6 +28,8 @@ import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
 import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
 import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.png";
 import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
+import download from "../assets/img/icons/download.svg";
+
 
 const Sponsors = () => (
   <section
@@ -415,42 +418,67 @@ const Sponsors = () => (
               paddingBottom: "0px"
             }}
           >
-            <h1 css={{ paddingBottom: "40px" }}>Our Partners</h1>
-            <p
+            <h1>Our Partners</h1>
+            <div
               css={{
-                position: "relative",
-                zIndex: "9999",
-                fontWeight: "bold",
-                color: "#000000",
-                paddingBottom: "24px",
-                ">a": {
-                  color: "#c81c2e",
-                  textDecoration: "underline",
-                  ":hover": { textDecoration: "none" }
+                display: "inline-box",
+                width: "700px",
+                margin: "15px auto",
+                padding: "30px",
+                border: "3px solid #00205b",
+                borderRadius: "10px",
+                "@media(max-width: 820px)": {
+                  width: "400px"
+                },
+                "@media(max-width: 500px)": {
+                  width: "300px"
                 }
-              }}
-            >
-              Interested in partnering? Contact us at{" "}
-              <a
-                data-cy="partners-email-prompt"
-                href="mailto:partnership@qhacks.io"
+              }}>
+              <p
                 css={{
+                  position: "relative",
                   zIndex: "9999",
-                  fontSize: "16px",
-                  fontWeight: "bold"
+                  fontWeight: "bold",
+                  color: "#000000",
+                  paddingBottom: "24px",
+                  ">a": {
+                    color: "#c81c2e",
+                    textDecoration: "underline",
+                    ":hover": { textDecoration: "none" }
+                  }
                 }}
               >
-                angela@qhacks.io
-            </a>
-            </p>
-            {/* <ActionButton
-            backgroundColor="#f8f8f8"
-            foregroundColor="#c81c2e"
-            type="rounded"
-            link="https://qhacks.nyc3.cdn.digitaloceanspaces.com/documents/QHacksPartnershipPackage.pdf"
-          >
-            Partnership Package
-          </ActionButton> */}
+                Interested in partnering? Contact us at{" "}
+                <a
+                  data-cy="partners-email-prompt"
+                  href="mailto:partnership@qhacks.io"
+                  css={{
+                    zIndex: "9999",
+                    fontSize: "16px",
+                    fontWeight: "bold"
+                  }}
+                >
+                  angela@qhacks.io
+                </a>
+              </p>
+              <button css={{ padding: "5px", border: "none", backgroundColor: "#ffffff" }}>
+                <a href={partnershipPackage} css={{ display: 'flex' }} download>
+                  <img src={download} css={{ width: "25px" }} />
+                  <p css={{
+                    fontSize: "25px",
+                    fontWeight: "600",
+                    marginLeft: "5px",
+                    "@media(max-width: 500px)": {
+                      fontSize: "20px"
+                    },
+                    ":hover": {
+                      fontWeight: "700",
+                      color: "#00205b"
+                    }
+                  }}>Partnership Package</p>
+                </a>
+              </button>
+            </div>
           </div>
 
           {/* School */}
@@ -804,7 +832,8 @@ const Sponsors = () => (
         </div>
       </div>
     </ContentWrapper>
-  </section>
+  </section >
 );
+
 
 export default Sponsors;
