@@ -174,7 +174,7 @@ const Sponsors = () => (
                   alt=""
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.scotiabank.com/ca/en">
+              <SponsorLink url="https://www.scotiabank.com/global/en/global-site.html">
                 <img
                   src={scotiabankLogo}
                   css={{

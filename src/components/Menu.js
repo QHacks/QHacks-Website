@@ -41,7 +41,7 @@ const Menu = (props) => {
           alt="QHacks Crown"
         />
       </a>
-      <a
+      {/* <a
         id="mlh-trust-badge"
         href="https://mlh.io/seasons/na-2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=white"
         target="_blank"
@@ -65,7 +65,7 @@ const Menu = (props) => {
             height: "150px"
           }}
         ></img>
-      </a>
+      </a> */}
       <div
         align="right"
         css={{

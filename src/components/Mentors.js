@@ -10,7 +10,7 @@ import twitter from "../assets/img/mentors/logos/twitter.svg";
 import makeship from "../assets/img/mentors/logos/makeship.png";
 
 // Mentor headshots
-import anuj from "../assets/img/mentors/headshots/AnujArora.jpg"
+import anuj from "../assets/img/mentors/headshots/AnujArora.jpg";
 import gordon from "../assets/img/mentors/headshots/GordonGibson.jpg";
 import stefan from "../assets/img/mentors/headshots/StefanSokic.jpg";
 import enoch from "../assets/img/mentors/headshots/EnochTam.jpg";
@@ -42,9 +42,8 @@ const mentors1 = [
     title: "Software Engineer",
     headshot: stefan,
     companyLogo: kindred,
-    companyUrl: "https://www.kindred.ai/",
+    companyUrl: "https://www.kindred.ai/"
   }
-
 ];
 
 const mentors2 = [
@@ -60,7 +59,7 @@ const mentors2 = [
     title: "Software Engineer",
     headshot: enoch,
     companyLogo: google,
-    companyUrl: "https://www.careers.google.com",
+    companyUrl: "https://careers.google.com",
     logoMarginTop: "-15px",
     logoHeight: "80px"
   },
@@ -79,14 +78,20 @@ const mentors2 = [
     headshot: rakan,
     companyLogo: makeship,
     companyUrl: "https://makeship.com/",
-    logoMarginTop: "-5px",
+    logoMarginTop: "-5px"
   }
-
 ];
 
 export default () => (
   <div css={{ marginBottom: "16px" }}>
-    <h1 css={{ fontWeight: "600", fontSize: "28px", textAlign: "center", position: "relative", }}>
+    <h1
+      css={{
+        fontWeight: "600",
+        fontSize: "28px",
+        textAlign: "center",
+        position: "relative"
+      }}
+    >
       Additional Mentors and Workshop Leaders
     </h1>
     <div
@@ -111,7 +116,6 @@ export default () => (
           {...mentor}
           key={mentor.name}
           borderColor={QHACKS_COLORS[i % 3]}
-
         />
       ))}
     </div>
@@ -141,6 +145,4 @@ export default () => (
       ))}
     </div>
   </div>
-
-
 );
