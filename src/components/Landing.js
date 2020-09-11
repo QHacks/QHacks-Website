@@ -15,6 +15,7 @@ const landingCSS = {
   height: "730px",
   marginTop: "120px",
   background: `url(${backgroundImage}) no-repeat center center`,
+  backgroundColor: "#fff",
   backgroundSize: "auto 650px",
   "@media (min-width: 820px) and (max-width: 1200px)": {
     backgroundSize: "auto 550px"
@@ -38,7 +39,7 @@ const applyButtonCSS = {
 
 function Landing() {
   return (
-    <section id="main" css={landingCSS}>
+    <section css={landingCSS}>
       <Header standaloneVersion={false} />
       <ContentWrapper>
         <div

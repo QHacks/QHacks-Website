@@ -32,6 +32,7 @@ const Sponsors = () => (
   <section
     id="sponsors"
     css={{
+      background: "#fff",
       position: "relative",
       zIndex: "2",
       opacity: "1",

@@ -22,7 +22,7 @@ const ToTopButton = () => {
   return (
     <a
       className="back-to-top-btn"
-      href="/#main"
+      href="/#"
       css={{
         zIndex: "3",
         position: "fixed",
@@ -42,7 +42,7 @@ const ToTopButton = () => {
           padding: "0 13px",
           transition: "0.5s",
           ":hover": {
-            backgroundColor: "#cd5c5c",
+            backgroundColor: "#cd5c5c"
             // border: "3px solid #cd5c5c"
           }
         }}

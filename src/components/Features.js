@@ -51,7 +51,7 @@ const imgStyle = {
 };
 
 const Features = () => (
-  <div css={{ position: "relative" }}>
+  <div css={{ background: "#fff", position: "relative" }}>
     <ContentWrapper>
       <div
         css={{

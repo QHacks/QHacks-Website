@@ -280,7 +280,10 @@ class EventSchedule extends Component {
     const data = this.addDurations(eventsOnSelectedDay);
 
     return (
-      <section id="schedule" css={{ padding: "60px 0 0 0" }}>
+      <section
+        id="schedule"
+        css={{ background: "#fff", padding: "60px 0 0 0" }}
+      >
         <ContentWrapper>
           <div
             css={{
