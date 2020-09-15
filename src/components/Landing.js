@@ -148,7 +148,7 @@ function Landing() {
             link="/404"
             type="rounded"
           >
-            Application will be open soon
+            Applications will be open soon
           </ActionButton>
           {/* <ActionButton
             dataCy="apply-button"
