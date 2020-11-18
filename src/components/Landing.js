@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 import Header from "./Header";
 import ActionButton from "./ActionButton";
@@ -37,7 +37,51 @@ const applyButtonCSS = {
   }
 };
 
+
+
 function Landing() {
+
+  const [timerDays, setTimerDays] = useState("00");
+  const [timerHours, setTimerHours] = useState("00");
+  const [timerMinutes, setTimerMinutes] = useState("00");
+  const [timerSeconds, setTimerSeconds] = useState("00");
+  
+  let interval = useRef;
+  
+  const startTimer = () => {
+      const countDownDate = new Date('November 25 2020 00:00:00').getTime();
+  
+      interval = setInterval(()=>{
+        const now = new Date().getTime(); 
+        const distance = countDownDate - now; 
+
+        const days = Math.floor(distance/(1000*60*60*24));
+        const hours = Math.floor((distance%(1000*60*60*24)/(1000*60*60)));
+        const minutes = Math.floor((distance%(1000*60*60)/(1000*60)));
+        const seconds = Math.floor((distance%(1000*60)) / 1000);
+
+
+        if (distance < 0){
+          clearInterval(interval.current);
+        }else{
+          setTimerDays(days);
+          setTimerHours(hours);
+          setTimerMinutes(minutes);
+          setTimerSeconds(seconds);
+        }
+
+      }, 1000);
+  };
+
+useEffect(()=>{
+  startTimer();
+  return() =>{
+    clearInterval(interval.current);
+  };
+});
+
+
+
   return (
     <section css={landingCSS}>
       <Header standaloneVersion={false} />
@@ -140,15 +184,41 @@ function Landing() {
           </h2>
           <ActionButton
             dataCy="apply-button"
-            backgroundColor="#A0A0A0"
+            backgroundColor="#00205B"
             foregroundColor="#ffffff"
-            hoverBackgroundColor="#a0a0a0"
+            hoverBackgroundColor="#16498c"
             hoverForegroundColor="#ffffff"
             style={applyButtonCSS}
             link="/404"
             type="rounded"
           >
-            Applications will be open soon
+            Applications Opening in
+            <div css={{
+
+              display: "grid",
+              gridTemplateColumns:  "repeat(7, 1fr)",
+
+               }}>
+              <section>
+                <p css = {{fontSize: "25px"}}>{timerDays}</p>
+                <p><small>days</small></p>
+              </section>
+              <span>:</span>
+              <section>
+                <p css = {{fontSize: "25px"}}>{timerHours}</p>
+                <p><small>hours</small></p>
+              </section>
+              <span>:</span>
+              <section>
+                <p css = {{fontSize: "25px"}}>{timerMinutes}</p>
+                <p><small>minutes</small></p>
+              </section>
+              <span>:</span>
+              <section>
+                <p css = {{fontSize: "25px"}}>{timerSeconds}</p>
+                <p><small>seconds</small></p>
+              </section>
+              </div>
           </ActionButton>
           {/* <ActionButton
             dataCy="apply-button"
