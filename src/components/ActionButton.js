@@ -29,6 +29,7 @@ const ActionButton = (props) => {
     textTransform: "uppercase",
     backgroundColor: props.backgroundColor,
     display: "flex",
+    flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     color: props.foregroundColor,

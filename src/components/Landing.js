@@ -186,13 +186,12 @@ useEffect(()=>{
             dataCy="apply-button"
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
-            hoverBackgroundColor="#16498c"
+            hoverBackgroundColor="#00205B"
             hoverForegroundColor="#ffffff"
             style={applyButtonCSS}
-            link="/404"
             type="rounded"
           >
-            Applications Opening in
+            <p css = {{fontSize: "20px", fontWeight: "450"}}>Applications Opening in</p>
             <div css={{
 
               display: "grid",
