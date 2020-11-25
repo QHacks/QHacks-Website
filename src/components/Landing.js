@@ -182,7 +182,7 @@ useEffect(()=>{
             <br />
             Join us for an unforgettable experience!
           </h2>
-          <ActionButton
+          {/*<ActionButton
             dataCy="apply-button"
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
@@ -218,8 +218,8 @@ useEffect(()=>{
                 <p><small>seconds</small></p>
               </section>
               </div>
-          </ActionButton>
-          {/* <ActionButton
+              </ActionButton>*/}
+           <ActionButton
             dataCy="apply-button"
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
@@ -230,7 +230,7 @@ useEffect(()=>{
             type="rounded"
           >
             Apply now
-          </ActionButton> */}
+          </ActionButton>
         </div>
       </ContentWrapper>
     </section>
