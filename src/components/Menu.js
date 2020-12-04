@@ -41,9 +41,9 @@ const Menu = (props) => {
           alt="QHacks Crown"
         />
       </a>
-      {/* <a
+      <a
         id="mlh-trust-badge"
-        href="https://mlh.io/seasons/na-2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=white"
+        href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray"
         target="_blank"
         rel="external noopener"
         css={{
@@ -59,13 +59,13 @@ const Menu = (props) => {
         }}
       >
         <img
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-white.svg"
+          src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg"
           alt="Major League Hacking 2021 Hackathon Season"
           css={{
             height: "150px"
           }}
         ></img>
-      </a> */}
+      </a>
       <div
         align="right"
         css={{
