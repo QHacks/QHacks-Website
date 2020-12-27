@@ -76,7 +76,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="">
+              <SponsorLink url="https://jobs.rogers.com/">
                 <img
                   src={rogers}
                   css={{
@@ -97,7 +97,7 @@ const Sponsors = () => (
                   alt="Rogers Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://careers.godaddy.com/">
                 <img
                   css={{
                     width: "400px",
@@ -130,7 +130,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="">
+              <SponsorLink url="https://www.fdmgroup.com/en-ca/ca-careers/">
                 <img
                   css={{
                     width: "250px",
@@ -149,7 +149,7 @@ const Sponsors = () => (
                   alt="FDM Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://careers.microsoft.com/us/en">
                 <img
                   css={{
                     width: "330px",
@@ -204,7 +204,7 @@ const Sponsors = () => (
                   alt="DDQIC Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://aquanow.io/">
                 <img
                   css={{
                     width: "250px",
@@ -247,7 +247,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="">
+              <SponsorLink url="https://balsamiq.com/">
                 <img
                   src={balsamiq}
                   css={{
@@ -266,7 +266,7 @@ const Sponsors = () => (
                   alt="Balsamiq Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://www.pwc.com/ca/en/careers.html">
                 <img
                   src={pwc}
                   css={{
@@ -284,7 +284,7 @@ const Sponsors = () => (
                   alt="PwC Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://www.echoar.xyz/">
                 <img
                   src={echoar}
                   css={{
@@ -301,7 +301,7 @@ const Sponsors = () => (
                   alt="EchoAR Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://www.voiceflow.com/">
                 <img
                   src={voiceflow}
                   css={{
@@ -334,7 +334,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="">
+              <SponsorLink url="https://www.mosaicjobs.com/">
                 <img
                   src={mosaic}
                   css={{
@@ -353,7 +353,7 @@ const Sponsors = () => (
                   alt="Mosaic Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://distributed.computer/">
                 <img
                   src={dclabs}
                   css={{
@@ -371,7 +371,7 @@ const Sponsors = () => (
                   alt="DCLabs Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://www.stickermule.com/ca/careers">
                 <img
                   src={stickermule}
                   css={{
@@ -390,7 +390,7 @@ const Sponsors = () => (
                   alt="StickerMule Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://thecodex.me/">
                 <img
                   src={thecodex}
                   css={{
@@ -443,7 +443,7 @@ const Sponsors = () => (
                   alt="Sherpa Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://www.toyota.ca/toyota/en/about/careers">
                 <img
                   src={toyota}
                   css={{
