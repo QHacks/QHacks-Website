@@ -226,9 +226,10 @@ useEffect(()=>{
             hoverBackgroundColor="#16498c"
             hoverForegroundColor="#ffffff"
             style={applyButtonCSS}
+            link="https://app.qhacks.io/"
             type="rounded"
           >
-            Applications Have Been Closed
+            Apply Now
           </ActionButton>
         </div>
       </ContentWrapper>
