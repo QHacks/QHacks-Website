@@ -184,15 +184,15 @@ useEffect(()=>{
           </h2>
            <ActionButton
             dataCy="apply-button"
-            backgroundColor="#00205B"
+            backgroundColor="#696969"
             foregroundColor="#ffffff"
-            hoverBackgroundColor="#16498c"
+            hoverBackgroundColor="#585858"
             hoverForegroundColor="#ffffff"
             style={applyButtonCSS}
             link="https://app.qhacks.io/"
             type="rounded"
           >
-            Apply Now
+            Applications are now closed
           </ActionButton>
         </div>
       </ContentWrapper>
