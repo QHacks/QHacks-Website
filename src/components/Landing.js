@@ -182,43 +182,6 @@ useEffect(()=>{
             <br />
             Join us for an unforgettable experience!
           </h2>
-          {/*<ActionButton
-            dataCy="apply-button"
-            backgroundColor="#00205B"
-            foregroundColor="#ffffff"
-            hoverBackgroundColor="#00205B"
-            hoverForegroundColor="#ffffff"
-            style={applyButtonCSS}
-            type="rounded"
-          >
-            <p css = {{fontSize: "20px", fontWeight: "450"}}>Applications Opening in</p>
-            <div css={{
-
-              display: "grid",
-              gridTemplateColumns:  "repeat(7, 1fr)",
-
-               }}>
-              <section>
-                <p css = {{fontSize: "25px"}}>{timerDays}</p>
-                <p><small>days</small></p>
-              </section>
-              <span>:</span>
-              <section>
-                <p css = {{fontSize: "25px"}}>{timerHours}</p>
-                <p><small>hours</small></p>
-              </section>
-              <span>:</span>
-              <section>
-                <p css = {{fontSize: "25px"}}>{timerMinutes}</p>
-                <p><small>minutes</small></p>
-              </section>
-              <span>:</span>
-              <section>
-                <p css = {{fontSize: "25px"}}>{timerSeconds}</p>
-                <p><small>seconds</small></p>
-              </section>
-              </div>
-              </ActionButton>*/}
            <ActionButton
             dataCy="apply-button"
             backgroundColor="#00205B"
