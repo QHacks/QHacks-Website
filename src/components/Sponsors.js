@@ -334,7 +334,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="https://www.mosaicjobs.com/">
+              <SponsorLink url="https://www.mosaicmfg.com/">
                 <img
                   src={mosaic}
                   css={{
