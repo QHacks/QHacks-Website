@@ -187,13 +187,15 @@ const Sponsors = () => (
               <SponsorLink url="https://queensu.ca/innovationcentre">
                 <img
                   css={{
-                    width: "400px",
-                    marginTop:"25px",
+                    width: "300px",
+                    marginTop:"-25px",
                     "@media(max-width: 980px)": {
+                      marginTop:"-15px",
                       width: "300px"
                     },
                     "@media(max-width: 680px)": {
-                      width: "200px"
+                      marginTop:"-5px",
+                      width: "250px"
                     },
                     "@media(max-width: 500px)": {
                       width: "230px",
@@ -207,15 +209,15 @@ const Sponsors = () => (
               <SponsorLink url="https://aquanow.io/">
                 <img
                   css={{
-                    width: "250px",
+                    width: "400px",
                     "@media(max-width: 980px)": {
-                      width: "200px"
+                      width: "300px"
                     },
                     "@media(max-width: 680px)": {
-                      width: "200px"
+                      width: "250px"
                     },
                     "@media(max-width: 500px)": {
-                      width: "160px",
+                      width: "230px",
                       marginTop:"15px"
                     }
                   }}
@@ -423,7 +425,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="">
+              <SponsorLink url="https://www.joinsherpa.com/">
                 <img
                   src={sherpa}
                   css={{
@@ -462,7 +464,7 @@ const Sponsors = () => (
                   alt="Toyota Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://kuzoclass.com/">
                 <img
                   src={kuzo}
                   css={{
