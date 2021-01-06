@@ -4,9 +4,9 @@ import SponsorLink from "./SponsorLink";
 import ContentWrapper from "./ContentWrapper";
 import PartnerPackage from "./PartnerPackage";
 
-import mmieLogo from "../assets/img/sponsors/mmie.svg";
-import mlhLogo from "../assets/img/sponsors/mlh-black.svg";
-import kingstonLogo from "../assets/img/sponsors/kingston.svg";
+import mmieLogo from "../assets/img/sponsorLogos/mmie.svg";
+import mlhLogo from "../assets/img/sponsorLogos/mlh-black.svg";
+import kingstonLogo from "../assets/img/sponsorLogos/kingston.svg";
 import aquanow from "../assets/img/sponsorLogos/Aquanow.png";
 import balsamiq from "../assets/img/sponsorLogos/balsamiq.png";
 import ddqic from "../assets/img/sponsorLogos/DDQIC.jpg";
@@ -23,8 +23,9 @@ import stickermule from "../assets/img/sponsorLogos/Stickermule.png";
 import thecodex from "../assets/img/sponsorLogos/TheCodex.jpg";
 import toyota from "../assets/img/sponsorLogos/Toyota.png";
 import voiceflow from "../assets/img/sponsorLogos/Voiceflow.png";
-import sherpa from "../assets/img/sponsorLogos/sherpa.jpg";
-import ibm from "../assets/img/sponsorLogos/ibm.png"
+import sherpa from "../assets/img/sponsorLogos/sherpa.png";
+import ibm from "../assets/img/sponsorLogos/ibm.png";
+import protoio from "../assets/img/sponsorLogos/Protoio.svg";
 
 const Sponsors = () => (
   <section
@@ -239,7 +240,7 @@ const Sponsors = () => (
                 <img
                   src={balsamiq}
                   css={{
-                    width: "200",
+                    width: "170",
                     marginTop:"25px",
                     "@media(max-width: 920px)": {
                       width: "120px",
@@ -258,7 +259,7 @@ const Sponsors = () => (
                 <img
                   src={pwc}
                   css={{
-                    width: "200px",
+                    width: "170px",
                     marginTop:"25px",
                     "@media(max-width: 920px)": {
                       width: "120px"
@@ -276,7 +277,7 @@ const Sponsors = () => (
                 <img
                   src={echoar}
                   css={{
-                    width: "180",
+                    width: "150",
                     "@media(max-width: 920px)": {
                       width: "120px"
                     },
@@ -293,8 +294,8 @@ const Sponsors = () => (
                 <img
                   src={voiceflow}
                   css={{
-                    width: "200px",
-                    marginTop:"40px",
+                    width: "170px",
+                    marginTop:"30px",
                     "@media(max-width: 920px)": {
                       marginTop:"30px",
                       width: "120px"
@@ -326,7 +327,7 @@ const Sponsors = () => (
                 <img
                   src={mosaic}
                   css={{
-                    width: "200px",
+                    width: "150px",
                     marginTop:"15px",
                     "@media(max-width: 920px)": {
                       width: "120px",
@@ -345,7 +346,7 @@ const Sponsors = () => (
                 <img
                   src={dclabs}
                   css={{
-                    width: "200px",
+                    width: "150px",
                     marginTop:"15px",
                     "@media(max-width: 920px)": {
                       width: "120px"
@@ -363,7 +364,7 @@ const Sponsors = () => (
                 <img
                   src={stickermule}
                   css={{
-                    width: "150px",
+                    width: "100px",
                     marginTop: "45px",
                     "@media(max-width: 920px)": {
                       width: "95px",
@@ -382,11 +383,11 @@ const Sponsors = () => (
                 <img
                   src={thecodex}
                   css={{
-                    width: "160px",
-                    marginTop: "40px",
+                    width: "100px",
+                    marginTop: "45px",
                     "@media(max-width: 920px)": {
-                      width: "100px",
-                      marginTop:"20px",
+                      width: "96px",
+                      marginTop:"25px",
                       marginBottom: "20px"
                     },
                     "@media(max-width: 610px)": {
@@ -415,17 +416,15 @@ const Sponsors = () => (
                 <img
                   src={sherpa}
                   css={{
-                    width: "100px",
-                    marginTop:"-5px",
+                    width: "230px",
                     "@media(max-width: 920px)": {
-                      width: "60px",
-                      marginBottom: "30px",
-                      marginTop:"-50px"
+                      width: "150px",
+                      marginTop:"-30px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "130px",
                       marginTop:"-5px",
-                      marginBottom: "10px"
+                      marginBottom: "20px"
                     }
                   }}
                   alt="Sherpa Logo"
@@ -435,10 +434,9 @@ const Sponsors = () => (
                 <img
                   src={toyota}
                   css={{
-                    width: "300px",
+                    width: "250px",
                     "@media(max-width: 920px)": {
                       width: "150px",
-                      marginBottom: "30px",
                       marginTop:"-30px"
                     },
                     "@media(max-width: 610px)": {
@@ -454,11 +452,12 @@ const Sponsors = () => (
                 <img
                   src={kuzo}
                   css={{
-                    width: "250px",
-                    marginTop: "-80px",
+                    width: "200px",
+                    marginTop: "-60px",
                     "@media(max-width: 920px)": {
                       width: "140px",
-                      marginBottom: "20px"
+                      marginBottom: "20px",
+                      marginTop: "-70px"
                     },
                     "@media(max-width: 610px)": {
                       width: "120px",
@@ -468,29 +467,12 @@ const Sponsors = () => (
                   alt="Kuzo Logo"
                 />
               </SponsorLink>
-              {/* <SponsorLink url="">
-                <img
-                  src={placeholder}
-                  css={{
-                    width: "150px",
-                    "@media(max-width: 920px)": {
-                      width: "120px",
-                      marginBottom: "30px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginBottom: "10px"
-                    }
-                  }}
-                  alt=""
-                />
-              </SponsorLink> */}
             </div>
 
             <div 
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                gridTemplateColumns: "1fr 1fr 1fr",
                 marginBottom: "30px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
@@ -503,9 +485,11 @@ const Sponsors = () => (
                   <img
                     src={mlhLogo}
                     css={{
-                      width: "150px",
-                      "@media(max-width: 980px)": {
-                        width: "110px"
+                      width: "120px",
+                      marginTop: "-20px",
+                      "@media(max-width: 920px)": {
+                        width: "80px",
+                        marginTop: "-70px",
                       },
                       "@media(max-width: 610px)": {
                         marginTop:"-100px",
@@ -515,30 +499,61 @@ const Sponsors = () => (
                     alt="MLH Logo"
                   />
               </SponsorLink>
-              <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
+              <SponsorLink url="https://proto.io/">
                 <img
-                  src={mmieLogo}
+                  src={protoio}
                   css={{
-                    width: "250px",
+                    width: "200px",
+                    marginTop:"-30px",
                     "@media(max-width: 920px)": {
-                      width: "180px",
+                      width: "130px",
                       marginBottom: "30px",
                     },
                     "@media(max-width: 610px)": {
-                      width: "180px",
+                      width: "100px",
                       marginBottom: "10px",
                       marginTop:"30px"
                     }
                   }}
-                  alt="MMIE Logo"
+                  alt="Protoio Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://queensu.ca/innovationcentre">
+              <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
+                <img
+                  src={kingstonLogo}
+                  css={{
+                    width: "120px",
+                    marginTop:"-70px",
+                    "@media(max-width: 920px)": {
+                      width: "100px",
+                      marginTop:"-75px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "100px",
+                      marginTop:"0"
+                    }
+                  }}
+                  alt="City of Kingston Logo"
+                />
+              </SponsorLink>
+            </div>
+
+            <div 
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                marginBottom: "30px",
+                "@media(max-width: 610px)": {
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "20px",
+                  marginTop:"-60px"
+                }
+              }}
+            >
+               <SponsorLink url="">
                   <img
-                    src={ddqic}
                     css={{
-                      width: "250px",
-                      marginTop:"-70px",
+                      width: "50px",
                       "@media(max-width: 920px)": {
                         width: "180px",
                         marginBottom: "30px",
@@ -550,25 +565,45 @@ const Sponsors = () => (
                         marginTop:"30px"
                       }
                     }}
+                  />
+              </SponsorLink>
+              <SponsorLink url="https://queensu.ca/innovationcentre">
+                  <img
+                    src={ddqic}
+                    css={{
+                      width: "350px",
+                      "@media(max-width: 920px)": {
+                        width: "200px",
+                        marginBottom: "30px"
+                      },
+                      "@media(max-width: 610px)": {
+                        width: "180px",
+                        marginBottom: "10px",
+                        marginTop:"30px"
+                      }
+                    }}
                     alt="DDQIC Logo"
                   />
               </SponsorLink>
-              <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
+              <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
                 <img
-                  src={kingstonLogo}
+                  src={mmieLogo}
                   css={{
-                    width: "150px",
-                    marginTop:"-75px",
-                    "@media(max-width: 980px)": {
-                      width: "120px",
-                      marginTop:"-65px"
+                    width: "400px",
+                    marginTop:"80px",
+                    marginLeft:"30px",
+                    "@media(max-width: 920px)": {
+                      width: "200px",
+                      marginTop:"50px",
+                      marginBottom: "30px",
                     },
                     "@media(max-width: 610px)": {
-                      width: "100px",
-                      marginTop:"0"
+                      width: "180px",
+                      marginBottom: "10px",
+                      marginTop:"30px"
                     }
                   }}
-                  alt="City of Kingston Logo"
+                  alt="MMIE Logo"
                 />
               </SponsorLink>
             </div>
