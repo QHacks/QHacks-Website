@@ -3,59 +3,65 @@ import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
 import Mentors from "./Mentors";
 
-import cameron from "../assets/img/speakers/CameronGorrie.jpg";
-import nicole from "../assets/img/mentors/headshots/NicoleFitzgerald.jpg";
-import david from "../assets/img/speakers/DavidHariri.jpg";
+import anuj from "../assets/img/speakers/headshots/AnujArora.jpg";
+import sarah from "../assets/img/speakers/headshots/SarahWalters.jpg";
 
+import ada from "../assets/img/speakers/logos/ada.svg";
+import google from "../assets/img/speakers/logos/google.png";
 import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
   {
-    name: "Cameron Gorrie",
-    title: "Senior Engineering Manager",
-    company: "Top Hat",
-    description: " ",
-    image: cameron,
-    companyUrl: "https://tophat.com/"
+    name: "Anuj Arora",
+    title: "Director, Solutions Consulting",
+    image: anuj,
+    company: ada,
+    companyUrl: "https://www.ada.cx/"
   },
   {
-    name: "Nicole Fitzgerald",
-    title: "Machine Learning Engineer",
-    company: "Microsoft",
-    description: " ",
-    image: nicole,
-    companyUrl: "https://careers.microsoft.com/us/en"
+    name: "Sarah Walters",
+    title: "Technical Program Manager",
+    image: sarah,
+    company: google,
+    companyUrl:"https://careers.google.com/"
   }
+  // {
+  //   name: "Sarah Stockdale",
+  //   title: "Founder & CEO of Valkerie",
+  //   image: david
+  // }
 ];
 
 const Speakers = () => (
   <section
-    id="speakers"
     css={{
-      position: "relative",
-      // backgroundImage:
-      //   "linear-gradient(to left, rgba(248,248,248,0), rgba(248,248,248,1))",
-      background: "rgba(248, 248, 248, 1)",
-      padding: "60px 0 0 0"
+      backgroundColor: "#f8f8f8",
+      position: "relative"
     }}
+    id="speakers"
   >
     <ContentWrapper>
       <h1
         css={{
+          paddingTop: "112px",
           paddingBottom: "48px",
           textAlign: "center",
           position: "relative",
+          zIndex: "3",
           "@media(max-width: 820px)": {
+            paddingTop: "200px",
             paddingBottom: "24px"
           }
         }}
       >
-        Speakers (2020)
+        Fireside Chat Speakers
       </h1>
+      {/* Desktop */}
       <div
         css={{
           display: "grid",
           position: "relative",
+          zIndex: 3,
           maxWidth: speakers.length * 500,
           marginLeft: "auto",
           marginRight: "auto",

@@ -8,8 +8,8 @@ export default ({
   borderColor,
   companyName,
   companyUrl,
-  logoWidth = "180px",
-  logoHeight = "auto",
+  logoWidth = "auto",
+  logoHeight = "40px",
   logoMarginTop = "0px"
 }) => (
   <div css={{ textAlign: "center", margin: "10px", marginTop: "56px" }}>
