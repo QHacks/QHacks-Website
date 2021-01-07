@@ -13,216 +13,180 @@ moment.tz.setDefault("America/Kingston");
 // duration in minutes, startDate as ISO 8601
 const schedule = [
   {
-    startDate: "2020-01-31T17:00:00",
+    startDate: "2021-01-22T17:00:00",
     endDate: "",
-    eventName: "Buses Arrive",
-    subtitle: " ",
-    location: "Mitchell Hall"
+    eventName: "Event Begins",
+    subtitle: "Participants Log Onto Platforms",
+    location: "Discord, Hopin and Devpost"
   },
   {
-    startDate: "2020-01-31T17:00:00",
-    endDate: "2020-01-31T19:00:00",
-    eventName: "Registration",
+    startDate: "2021-01-22T17:00:00",
+    endDate: "2021-01-22T18:30:00",
+    eventName: "Registration & Dinner",
     subtitle: "",
-    location: "Event Commons, Mitchell Hall"
+    location: "Hopin - Reception"
   },
   {
-    startDate: "2020-01-31T17:00:00",
-    endDate: "2020-01-31T19:00:00",
-    eventName: "Dinner",
-    subtitle: "",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-01-31T19:30:00",
-    endDate: "2020-01-31T21:30:00",
+    startDate: "2021-01-22T18:30:00",
+    endDate: "2021-01-22T20:00:00",
     eventName: "Opening Ceremony",
     subtitle: "",
-    location: "Bartlett Gym, Mitchell Hall"
+    location: "Hopin - Stage"
   },
   {
-    startDate: "2020-01-31T21:45:00",
-    endDate: "2020-01-31T22:30:00",
-    eventName: "Team Formation & Setup",
-    subtitle: "Find a Space to Hack!",
-    location: "Rooms 215, 225, and 235, Mitchell Hall"
+    startDate: "2021-01-22T20:00:00",
+    endDate: "2021-01-22T20:30:00",
+    eventName: "Team Formation & Finding Hackerspace",
+    subtitle: "",
+    location: "Discord & Outside Platforms"
   },
   {
-    startDate: "2020-01-31T22:00:00",
+    startDate: "2021-01-22T20:30:00",
     endDate: "",
     eventName: "Hacking Begins!",
     subtitle: "",
-    location: ""
+    location: "Discord - Announcements"
   },
   {
-    startDate: "2020-01-31T23:00:00",
-    endDate: "2020-01-31T23:45:00",
-    eventName: "Workshop | Tech Company Panel",
-    subtitle:
-      "Featuring: Nicole Fitzgerald, Enoch Tam, Alex Adusei, Stefan Sokic",
-    location: "Wallace Hall, JDUC"
+    startDate: "2021-01-22T21:00:00",
+    endDate: "2021-01-22T21:45:00",
+    eventName: "Workshop | DCL",
+    subtitle:"",
+    location: "Hopin - Sessions"
   },
   {
-    startDate: "2020-02-01T00:00:00",
-    endDate: "",
-    eventName: "Hardware Lounge Opens",
+    startDate: "2021-01-22T22:00:00",
+    endDate: "2021-01-22T23:00:00",
+    eventName: "(Almost) Midnight Snack",
     subtitle: "",
-    location: "TBD"
+    location: "Discord - Games"
   },
   {
-    startDate: "2020-02-01T00:00:00",
-    endDate: "2020-02-01T00:45:00",
-    eventName: "Midnight Snack",
-    subtitle: "Chips and Dips",
-    location: "John Orr Room, JDUC"
-  },
-  {
-    startDate: "2020-02-01T07:00:00",
-    endDate: "2020-02-01T07:45:00",
-    eventName: "Workshop | MMIE",
+    startDate: "2021-01-23T08:00:00",
+    endDate: "2021-01-23T09:00:00",
+    eventName: "Breakfast",
     subtitle: "",
-    location: "John Orr Room, JDUC"
+    location: "Hopin - Sessions"
   },
   {
-    startDate: "2020-02-01T08:00:00",
-    endDate: "2020-02-01T09:30:00",
-    eventName: "Breakfast ",
+    startDate: "2021-01-23T09:00:00",
+    endDate: "2021-01-23T09:45:00",
+    eventName: "Workshop | Microsoft",
     subtitle: "",
-    location: "John Orr Room, JDUC"
+    location: "Hopin - Sessions"
   },
   {
-    startDate: "2020-02-01T09:00:00",
-    endDate: "2020-02-01T09:45:00",
-    eventName: "Workshop | Scotiabank - Skills of the Trade",
+    startDate: "2021-01-23T10:00:00",
+    endDate: "2021-01-23T10:30:00",
+    eventName: "Workshop | FDM",
     subtitle: "",
-    location: "John Orr Room, JDUC"
+    location: "Hopin - Sessions"
   },
   {
-    startDate: "2020-02-01T10:00:00",
-    endDate: "2020-02-01T11:00:00",
+    startDate: "2021-01-23T11:00:00",
+    endDate: "2021-01-23T11:45:00",
+    eventName: "Panel Talk | Women in STEM",
+    subtitle: "",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T12:00:00",
+    endDate: "2021-01-23T13:00:00",
+    eventName: "Lunch & Learn",
+    subtitle: "IBM - LinkedIn Workshop",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T13:00:00",
+    endDate: "2021-01-23T14:00:00",
+    eventName: "Workshop | ROGERS",
+    subtitle: "How I landed a Job in a Pandemic and Tips for Hackathons",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T14:00:00",
+    endDate: "2021-01-23T15:30:00",
+    eventName: "Career Fair",
+    subtitle: "",
+    location: "Hopin & Discord"
+  },
+  {
+    startDate: "2021-01-23T16:00:00",
+    endDate: "2021-01-23T16:45:00",
+    eventName: "Workshop | Sherpa",
+    subtitle: "",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T17:00:00",
+    endDate: "2021-01-23T17:45:00",
+    eventName: "Workshop | GoDaddy",
+    subtitle: "",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T18:00:00",
+    endDate: "2021-01-23T19:00:00",
+    eventName: "Dinner & Learn",
+    subtitle: "",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T19:00:00",
+    endDate: "2021-01-23T19:45:00",
+    eventName: "Panel Talk | Life as a Dev",
+    subtitle: "",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T20:00:00",
+    endDate: "2021-01-23T20:45:00",
+    eventName: "Workshop | DDQIC",
+    subtitle: "",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T22:00:00",
+    endDate: "2021-01-23T23:00:00",
     eventName: "Mini Event",
-    subtitle: "Morning Stretch and Exercise",
-    location: "John Orr Room, JDUC"
-  },
-  {
-    startDate: "2020-02-01T11:00:00",
-    endDate: "2020-02-01T11:45:00",
-    eventName: "Fireside Chat | Cameron Gorrie and David Hariri",
     subtitle: "",
-    location: "McLaughlin Hall, JDUC"
+    location: "Discord or Hopin"
   },
   {
-    startDate: "2020-02-01T12:00:00",
-    endDate: "2020-02-01T13:00:00",
-    eventName: "Lunch",
+    startDate: "2021-01-24T08:15:00",
+    endDate: "2021-01-24T09:00:00",
+    eventName: "echoAR : Build a VR App in 15 Minutes",
     subtitle: "",
-    location: "John Orr Room, JDUC"
+    location: "Hopin - Sessions"
   },
   {
-    startDate: "2020-02-01T15:00:00",
-    endDate: "2020-02-01T15:45:00",
-    eventName: "Workshop | Sunlife Financial",
-    subtitle: "",
-    location: "John Orr Room, JDUC"
-  },
-  {
-    startDate: "2020-02-01T16:00:00",
-    endDate: "2020-02-01T16:45:00",
-    eventName: "Mini Event",
-    subtitle: "MLH Slideshow Karaoke",
-    location: "John Orr Room, JDUC"
-  },
-  {
-    startDate: "2020-02-01T17:00:00",
-    endDate: "2020-02-01T17:45:00",
-    eventName: "Workshop | Resume Roast",
-    subtitle: "",
-    location: "John Orr Room, JDUC"
-  },
-  {
-    startDate: "2020-02-01T18:00:00",
-    endDate: "2020-02-01T19:00:00",
-    eventName: "Dinner",
-    subtitle: "",
-    location: "John Orr Room, JDUC"
-  },
-  {
-    startDate: "2020-02-01T20:00:00",
-    endDate: "2020-02-01T20:45:00",
-    eventName: "Workshop | Cameron Gorrie - Top Hat",
-    subtitle: "",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-01T21:00:00",
-    endDate: "2020-02-01T21:45:00",
-    eventName: "Workshop | Merlin",
-    subtitle: "",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-01T22:00:00",
-    endDate: "2020-02-01T23:45:00",
-    eventName: "Mini Event",
-    subtitle: "Candy Bar",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-02T00:00:00",
-    endDate: "2020-02-02T01:30:00",
-    eventName: "Midnight Snack",
-    subtitle: "",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-02T00:00:00",
-    endDate: "2020-02-02T00:45:00",
-    eventName: "Mini Event",
-    subtitle: "Blind Coding & Spicy Software ",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-02T08:00:00",
-    endDate: "2020-02-02T10:00:00",
-    eventName: "Breakfast ",
-    subtitle: "",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-02T09:00:00",
+    startDate: "2021-01-24T09:00:00",
     endDate: "",
     eventName: "Hacking Ends!",
     subtitle: "",
     location: ""
   },
   {
-    startDate: "2020-02-02T09:30:00",
-    endDate: "2020-02-02T11:30:00",
-    eventName: "Demo Time & Judging",
-    subtitle: "",
-    location: "Rooms 215, 225, and 235, Mitchell Hall"
+    startDate: "2021-01-24T09:30:00",
+    endDate: "2021-01-24T11:30:00",
+    eventName: "Demo Time + Judging",
+    subtitle: "Games, Draws & Prizes!",
+    location: "Discord & Devpost"
   },
   {
-    startDate: "2020-02-02T11:00:00",
-    endDate: "2020-02-02T12:00:00",
-    eventName: "Lunch ",
-    subtitle: "",
-    location: "Wallace Hall, JDUC"
-  },
-  {
-    startDate: "2020-02-02T12:30:00",
-    endDate: "2020-02-02T14:30:00",
+    startDate: "2021-01-24T12:30:00",
+    endDate: "2021-01-24T14:00:00",
     eventName: "Closing Ceremony",
     subtitle: "",
-    location: "Grant Hall "
+    location: "Hopin - Stage"
   },
   {
-    startDate: "2020-02-02T15:00:00",
+    startDate: "2021-01-24T14:00:00",
     endDate: "",
-    eventName: "Buses Leave",
+    eventName: "Event Ends",
     subtitle: "",
-    location: "Mitchell Hall"
-  }
+    location: ""
+  },
 ];
 
 const eventDays = [];
@@ -298,26 +262,13 @@ class EventSchedule extends Component {
                 position: "relative"
               }}
             >
-              Event Schedule (2020)
+              Event Schedule (2021)
               <sup>
                 <a css={{ color: "#bababa" }} href="/#*">
                   *
                 </a>
               </sup>
             </h1>
-            <a href="https://drive.google.com/uc?id=1LGefjiJIepqQzHWk0FWqtCsVKjxqX_ng&export=download">
-              <h2
-                css={{
-                  paddingTop: "10px",
-                  textAlign: "center",
-                  position: "relative",
-                  zIndex: 2,
-                  color: "#bababa"
-                }}
-              >
-                Download as Calendar
-              </h2>
-            </a>
             <DaySwitcher
               days={eventDays}
               changeDay={(day) => this.changeDay(day)}
