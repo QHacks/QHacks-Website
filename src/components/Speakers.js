@@ -5,9 +5,11 @@ import Mentors from "./Mentors";
 
 import anuj from "../assets/img/speakers/headshots/AnujArora.jpg";
 import sarah from "../assets/img/speakers/headshots/SarahWalters.jpg";
+import sarahm from "../assets/img/speakers/headshots/SarahMaston.jpeg";
 
 import ada from "../assets/img/speakers/logos/ada.svg";
 import google from "../assets/img/speakers/logos/google.png";
+import ms from "../assets/img/sponsorLogos/Microsoft.png";
 import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
@@ -24,12 +26,14 @@ const speakers = [
     image: sarah,
     company: google,
     companyUrl:"https://careers.google.com/"
+  },
+  {
+    name: "Sarah Maston",
+    title: "Senior Solution Architect",
+    image: sarahm,
+    company: ms,
+    companyUrl:"https://careers.microsoft.com/us/en"
   }
-  // {
-  //   name: "Sarah Stockdale",
-  //   title: "Founder & CEO of Valkerie",
-  //   image: david
-  // }
 ];
 
 const Speakers = () => (

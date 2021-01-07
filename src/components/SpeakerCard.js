@@ -86,7 +86,7 @@ class SpeakerCard extends Component {
                 }}
               >
                 <a href={this.props.companyUrl}>
-                  <img css={{ height:"30px", textAlign:"center"}} src={this.props.company} />
+                  <img css={{ height:"25px", textAlign:"center"}} src={this.props.company} />
                 </a>
               </h2>
             </div>

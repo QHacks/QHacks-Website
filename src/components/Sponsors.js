@@ -229,7 +229,6 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr 1fr",
-                marginBottom: "30px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px"
@@ -277,7 +276,7 @@ const Sponsors = () => (
                 <img
                   src={echoar}
                   css={{
-                    width: "150",
+                    width: "150px",
                     "@media(max-width: 920px)": {
                       width: "120px"
                     },
@@ -316,7 +315,6 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr 1fr",
-                marginBottom: "30px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px"
@@ -405,7 +403,6 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr",
-                marginBottom: "30px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px"
@@ -469,11 +466,11 @@ const Sponsors = () => (
               </SponsorLink>
             </div>
 
+            {/* other Row 4 */}
             <div 
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr",
-                marginBottom: "30px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px",
@@ -542,7 +539,6 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr 1fr",
-                marginBottom: "30px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px",

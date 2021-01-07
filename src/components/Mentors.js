@@ -16,6 +16,11 @@ import pawzy from "../assets/img/mentors/logos/pawzy.png";
 import knockri from "../assets/img/mentors/logos/knockri.png";
 import pointcc from "../assets/img/mentors/logos/pointcc.png";
 import intuit from "../assets/img/mentors/logos/intuit.png";
+import connected from "../assets/img/mentors/logos/connected.svg";
+import amazon from "../assets/img/mentors/logos/amazon.png";
+import coursera from "../assets/img/mentors/logos/coursera.png";
+import ontario from "../assets/img/mentors/logos/ontario.png";
+import mars from "../assets/img/mentors/logos/mars.png";
 
 
 // Mentor headshots
@@ -35,6 +40,15 @@ import kerri from "../assets/img/mentors/headshots/KerriLynn.jpg";
 import matt from "../assets/img/mentors/headshots/MatthewAn.jpg";
 import arjun from "../assets/img/mentors/headshots/ArjunVegda.jpg";
 import phillip from "../assets/img/mentors/headshots/PhilipHan.jpg";
+import cooper from "../assets/img/mentors/headshots/Cooper_Thomas-Clark.jpeg";
+import ana from "../assets/img/mentors/headshots/AnastasiyaTarnouskaya.jpeg";
+import zackh from "../assets/img/mentors/headshots/ZackHarley.jpg";
+import zackf from "../assets/img/mentors/headshots/ZacharyFreedman.jpeg";
+import stefan from "../assets/img/mentors/headshots/StefanSokic.jpg";
+import simon from "../assets/img/mentors/headshots/SimonLiu.jpeg";
+import garret from "../assets/img/mentors/headshots/GarretCree.jpeg";
+import emily from "../assets/img/mentors/headshots/EmilyTamfo.jpeg";
+
 
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
@@ -46,7 +60,7 @@ const mentors = [
     companyLogo: intuit,
     companyName: "Intuit",
     companyUrl: "https://www.intuit.com/ca/",
-    logoHeight:"40px"
+    logoHeight:"30px"
   },
   {
     name: "Chris Maltais",
@@ -54,7 +68,8 @@ const mentors = [
     headshot: chris,
     companyLogo: shopify,
     companyName: "Shopify",
-    companyUrl: "https://www.shopify.ca/"
+    companyUrl: "https://www.shopify.ca/",
+    logoHeight: "30px"
   },
   {
     name: "Erin Gallagher",
@@ -80,7 +95,8 @@ const mentors = [
     headshot: mehryar,
     companyLogo: ibm,
     companyName: "IBM",
-    companyUrl: "https://www.ibm.com/ca-en"
+    companyUrl: "https://www.ibm.com/ca-en",
+    logoHeight: "30px"
   },
   {
     name: "Sara Van Tol",
@@ -88,7 +104,8 @@ const mentors = [
     headshot: sara,
     companyLogo: microsoft,
     companyName: "Microsoft",
-    companyUrl: "https://www.mozilla.org/en-CA/"
+    companyUrl: "https://careers.microsoft.com/us/en",
+    logoHeight: "30px"
   },
   {
     name: "Michael Dowling",
@@ -104,7 +121,8 @@ const mentors = [
     headshot: nishant,
     companyLogo: mozilla,
     companyName: "Mozilla",
-    companyUrl: "https://www.mozilla.org/en-CA/"
+    companyUrl: "https://www.mozilla.org/en-CA/",
+    logoHeight: "30px"
   },
   {
     name: "Margo Bain",
@@ -112,7 +130,8 @@ const mentors = [
     headshot: margo,
     companyLogo: pwc,
     companyName: "PWC",
-    companyUrl: "https://www.pwc.com/"
+    companyUrl: "https://www.pwc.com/",
+    logoHeight: "30px"
   },
   {
     name: "Chelsea Pham",
@@ -120,25 +139,8 @@ const mentors = [
     headshot: chelsea,
     companyLogo: pwc,
     companyName: "PWC",
-    companyUrl: "https://www.pwc.com/"
-  },
-  {
-    name: "Manoochehr Akhlaghinia",
-    title: "Data Scientist/Engineer",
-    headshot: manoochehr,
-    companyLogo: accenture,
-    companyName: "Accenture",
-    companyUrl: "https://www.accenture.com/ca-en",
-    logoHeight:"60px"
-  },
-  {
-    name: "Kerri-Lynn McAllister",
-    title: "Tech Leader, Founder of Pawzy",
-    headshot: kerri,
-    companyLogo: pawzy,
-    companyName: "Pawzy",
-    companyUrl: "https://pawzy.co/",
-    logoHeight:"60px"
+    companyUrl: "https://www.pwc.com/",
+    logoHeight: "30px"
   },
   {
     name: "Harry Lewis",
@@ -158,6 +160,23 @@ const mentors = [
     logoHeight:"60px"
   },
   {
+    name: "Zachary Freedman",
+    title: "Software Engineer",
+    headshot: zackf,
+    companyLogo: connected,
+    companyName: "Connected",
+    companyUrl: "https://www.connected.io/"
+  },
+  {
+    name: "Simon Liu",
+    title: "Software Engineer",
+    headshot: simon,
+    companyLogo: coursera,
+    companyName: "Coursera",
+    companyUrl: "https://www.coursera.org/",
+    logoHeight:"20px"
+  },
+  {
     name: "Arjun Vegda",
     title: "Senior Software Developer",
     headshot: arjun,
@@ -174,6 +193,60 @@ const mentors = [
     companyName: "Knockri",
     companyUrl: "https://knockri.com/",
     logoHeight:"95px"
+  },
+  {
+    name: "Emily Tamfo",
+    title: "Product Manager",
+    headshot: emily,
+    companyLogo: ontario,
+    companyName: "The Ontario Cabinet Office",
+    companyUrl: "https://www.ontario.ca/",
+    logoHeight:"70px"
+  },
+  {
+    name: "Garret Cree",
+    title: "Data Engineer",
+    headshot: garret,
+    companyLogo: mars,
+    companyName: "MaRs Discovery District",
+    companyUrl: "https://marsdd.com/",
+    logoHeight:"60px"
+  },
+  {
+    name: "Anastasiya Tarnouskaya",
+    title: "Product Manager",
+    headshot: ana,
+    companyLogo: microsoft,
+    companyName: "Microsoft",
+    companyUrl: "https://careers.microsoft.com/us/en",
+    logoHeight:"30px"
+  },  
+  {
+    name: "Cooper Thomas-Clark",
+    title: "Software Development Engineer",
+    headshot: cooper,
+    companyLogo: amazon,
+    companyName: "Amazon",
+    companyUrl: "https://www.amazon.jobs/en/",
+    logoHeight:"30px"
+  },
+  {
+    name: "Manoochehr Akhlaghinia",
+    title: "Data Scientist/Engineer",
+    headshot: manoochehr,
+    companyLogo: accenture,
+    companyName: "Accenture",
+    companyUrl: "https://www.accenture.com/ca-en",
+    logoHeight:"60px"
+  },
+  {
+    name: "Kerri-Lynn McAllister",
+    title: "Tech Leader, Founder of Pawzy",
+    headshot: kerri,
+    companyLogo: pawzy,
+    companyName: "Pawzy",
+    companyUrl: "https://pawzy.co/",
+    logoHeight:"60px"
   }
 ];
 
