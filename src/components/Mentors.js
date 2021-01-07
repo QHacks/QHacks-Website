@@ -54,21 +54,21 @@ const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
 const mentors = [
   {
-    name: "Phillip Han",
-    title: "Senior Software Engineer",
-    headshot: phillip,
-    companyLogo: intuit,
-    companyName: "Intuit",
-    companyUrl: "https://www.intuit.com/ca/",
-    logoHeight:"30px"
+    name: "Margo Bain",
+    title: "Senior Associate, Cybersecurity, Privacy, and Financial Crime",
+    headshot: margo,
+    companyLogo: pwc,
+    companyName: "PWC",
+    companyUrl: "https://www.pwc.com/",
+    logoHeight: "30px"
   },
   {
-    name: "Chris Maltais",
-    title: "Software Engineer",
-    headshot: chris,
-    companyLogo: shopify,
-    companyName: "Shopify",
-    companyUrl: "https://www.shopify.ca/",
+    name: "Chelsea Pham",
+    title: "Advisory Associate, Cybersecurity & Privacy",
+    headshot: chelsea,
+    companyLogo: pwc,
+    companyName: "PWC",
+    companyUrl: "https://www.pwc.com/",
     logoHeight: "30px"
   },
   {
@@ -90,13 +90,13 @@ const mentors = [
     logoHeight: "70px", 
   },
   {
-    name: "Mehryar Maalem",
-    title: "Senior Software Engineer",
-    headshot: mehryar,
-    companyLogo: ibm,
-    companyName: "IBM",
-    companyUrl: "https://www.ibm.com/ca-en",
-    logoHeight: "30px"
+    name: "Chris Maltais",
+    title: "Software Engineer",
+    headshot: chris,
+    companyLogo: shopify,
+    companyName: "Shopify",
+    companyUrl: "https://www.shopify.ca/",
+    logoHeight: "33px"
   },
   {
     name: "Sara Van Tol",
@@ -108,13 +108,15 @@ const mentors = [
     logoHeight: "30px"
   },
   {
-    name: "Michael Dowling",
-    title: "Software Development Engineer",
-    headshot: michael,
-    companyLogo: aws,
-    companyName: "AWS",
-    companyUrl: "https://aws.amazon.com/"
-  },  
+    name: "Simon Liu",
+    title: "Software Engineer",
+    headshot: simon,
+    companyLogo: coursera,
+    companyName: "Coursera",
+    companyUrl: "https://www.coursera.org/",
+    logoHeight:"20px",
+    logoMarginTop: "5px"
+  }, 
   {
     name: "Nishant Bhasin",
     title: "Senior Software Engineer",
@@ -122,42 +124,27 @@ const mentors = [
     companyLogo: mozilla,
     companyName: "Mozilla",
     companyUrl: "https://www.mozilla.org/en-CA/",
-    logoHeight: "30px"
+    logoHeight: "27px"
   },
   {
-    name: "Margo Bain",
-    title: "Senior Associate, Cybersecurity, Privacy, and Financial Crime",
-    headshot: margo,
-    companyLogo: pwc,
-    companyName: "PWC",
-    companyUrl: "https://www.pwc.com/",
-    logoHeight: "30px"
+    name: "Phillip Han",
+    title: "Senior Software Engineer",
+    headshot: phillip,
+    companyLogo: intuit,
+    companyName: "Intuit",
+    companyUrl: "https://www.intuit.com/ca/",
+    logoHeight:"30px",
+    logoMarginTop:"10px"
   },
   {
-    name: "Chelsea Pham",
-    title: "Advisory Associate, Cybersecurity & Privacy",
-    headshot: chelsea,
-    companyLogo: pwc,
-    companyName: "PWC",
-    companyUrl: "https://www.pwc.com/",
-    logoHeight: "30px"
-  },
-  {
-    name: "Harry Lewis",
-    title: "Software Engineer",
-    headshot: harry,
-    companyLogo: himama,
-    companyName: "HiMama",
-    companyUrl: "https://www.himama.com/careers"
-  },
-  {
-    name: "Tali Remennik",
-    title: "Management Consultant",
-    headshot: tali,
-    companyLogo: accenture,
-    companyName: "Accenture",
-    companyUrl: "https://www.accenture.com/ca-en",
-    logoHeight:"60px"
+    name: "Mehryar Maalem",
+    title: "Senior Software Engineer",
+    headshot: mehryar,
+    companyLogo: ibm,
+    companyName: "IBM",
+    companyUrl: "https://www.ibm.com/ca-en",
+    logoHeight: "30px",
+    logoMarginTop:"10px"
   },
   {
     name: "Zachary Freedman",
@@ -168,13 +155,22 @@ const mentors = [
     companyUrl: "https://www.connected.io/"
   },
   {
-    name: "Simon Liu",
-    title: "Software Engineer",
-    headshot: simon,
-    companyLogo: coursera,
-    companyName: "Coursera",
-    companyUrl: "https://www.coursera.org/",
-    logoHeight:"20px"
+    name: "Matthew An",
+    title: "Full-Stack Software Engineer",
+    headshot: matt,
+    companyLogo: knockri,
+    companyName: "Knockri",
+    companyUrl: "https://knockri.com/",
+    logoHeight:"40px"
+  },
+  {
+    name: "Garret Cree",
+    title: "Data Engineer",
+    headshot: garret,
+    companyLogo: mars,
+    companyName: "MaRs Discovery District",
+    companyUrl: "https://marsdd.com/",
+    logoHeight:"80px"
   },
   {
     name: "Arjun Vegda",
@@ -183,16 +179,27 @@ const mentors = [
     companyLogo: pointcc,
     companyName: "PointClickCare",
     companyUrl: "https://pointclickcare.com/",
-    logoHeight:"60px"
+    logoHeight:"80px"
   },
   {
-    name: "Matthew An",
-    title: "Full-Stack Software Engineer",
-    headshot: matt,
-    companyLogo: knockri,
-    companyName: "Knockri",
-    companyUrl: "https://knockri.com/",
-    logoHeight:"95px"
+    name: "Anastasiya Tarnouskaya",
+    title: "Product Manager",
+    headshot: ana,
+    companyLogo: microsoft,
+    companyName: "Microsoft",
+    companyUrl: "https://careers.microsoft.com/us/en",
+    logoHeight:"30px",
+    logoMarginTop:"8px"
+  },  
+  {
+    name: "Cooper Thomas-Clark",
+    title: "Software Development Engineer",
+    headshot: cooper,
+    companyLogo: amazon,
+    companyName: "Amazon",
+    companyUrl: "https://www.amazon.jobs/en/",
+    logoHeight:"30px",
+    logoMarginTop:"15px"
   },
   {
     name: "Emily Tamfo",
@@ -204,40 +211,23 @@ const mentors = [
     logoHeight:"70px"
   },
   {
-    name: "Garret Cree",
-    title: "Data Engineer",
-    headshot: garret,
-    companyLogo: mars,
-    companyName: "MaRs Discovery District",
-    companyUrl: "https://marsdd.com/",
-    logoHeight:"60px"
-  },
-  {
-    name: "Anastasiya Tarnouskaya",
-    title: "Product Manager",
-    headshot: ana,
-    companyLogo: microsoft,
-    companyName: "Microsoft",
-    companyUrl: "https://careers.microsoft.com/us/en",
-    logoHeight:"30px"
-  },  
-  {
-    name: "Cooper Thomas-Clark",
-    title: "Software Development Engineer",
-    headshot: cooper,
-    companyLogo: amazon,
-    companyName: "Amazon",
-    companyUrl: "https://www.amazon.jobs/en/",
-    logoHeight:"30px"
-  },
-  {
-    name: "Manoochehr Akhlaghinia",
-    title: "Data Scientist/Engineer",
-    headshot: manoochehr,
+    name: "Tali Remennik",
+    title: "Management Consultant",
+    headshot: tali,
     companyLogo: accenture,
     companyName: "Accenture",
     companyUrl: "https://www.accenture.com/ca-en",
-    logoHeight:"60px"
+    logoHeight:"80px"
+  },
+  {
+    name: "Harry Lewis",
+    title: "Software Engineer",
+    headshot: harry,
+    companyLogo: himama,
+    companyName: "HiMama",
+    companyUrl: "https://www.himama.com/careers",
+    logoHeight:"45px",
+    logoMarginTop: "10px"
   },
   {
     name: "Kerri-Lynn McAllister",
@@ -247,7 +237,16 @@ const mentors = [
     companyName: "Pawzy",
     companyUrl: "https://pawzy.co/",
     logoHeight:"60px"
-  }
+  },
+  {
+    name: "Manoochehr Akhlaghinia",
+    title: "Data Scientist/Engineer",
+    headshot: manoochehr,
+    companyLogo: accenture,
+    companyName: "Accenture",
+    companyUrl: "https://www.accenture.com/ca-en",
+    logoHeight:"80px"
+  },
 ];
 
 export default () => (

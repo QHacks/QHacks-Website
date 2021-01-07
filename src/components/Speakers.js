@@ -2,6 +2,8 @@ import React from "react";
 import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
 import Mentors from "./Mentors";
+import WomeninSTEM from "./WomenInSTEM";
+import TechPanalists from "./TechPanalists";
 
 import anuj from "../assets/img/speakers/headshots/AnujArora.jpg";
 import sarah from "../assets/img/speakers/headshots/SarahWalters.jpg";
@@ -90,6 +92,8 @@ const Speakers = () => (
       >
         <SpeakerSlider speakers={speakers} />
       </div>
+      <WomeninSTEM />
+      <TechPanalists />
       <Mentors />
     </ContentWrapper>
   </section>
