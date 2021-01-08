@@ -64,7 +64,7 @@ const schedule = [
   {
     startDate: "2021-01-23T08:00:00",
     endDate: "2021-01-23T09:00:00",
-    eventName: "Breakfast",
+    eventName: "Speaker #1 | Jeff Howell Alayacare",
     subtitle: "",
     location: "Hopin - Sessions"
   },
@@ -77,7 +77,7 @@ const schedule = [
   },
   {
     startDate: "2021-01-23T10:00:00",
-    endDate: "2021-01-23T10:30:00",
+    endDate: "2021-01-23T10:45:00",
     eventName: "Workshop | FDM",
     subtitle: "",
     location: "Hopin - Sessions"
@@ -91,14 +91,14 @@ const schedule = [
   },
   {
     startDate: "2021-01-23T12:00:00",
-    endDate: "2021-01-23T13:00:00",
+    endDate: "2021-01-23T12:55:00",
     eventName: "Lunch & Learn",
     subtitle: "IBM - LinkedIn Workshop",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T13:00:00",
-    endDate: "2021-01-23T14:00:00",
+    endDate: "2021-01-23T13:55:00",
     eventName: "Workshop | ROGERS",
     subtitle: "How I landed a Job in a Pandemic and Tips for Hackathons",
     location: "Hopin - Sessions"
@@ -126,9 +126,16 @@ const schedule = [
   },
   {
     startDate: "2021-01-23T18:00:00",
+    endDate: "2021-01-23T18:30:00",
+    eventName: "Resume Roast",
+    subtitle: "Hosted by CTO & Co-founder of Loopio",
+    location: "Hopin - Sessions"
+  },
+  {
+    startDate: "2021-01-23T18:30:00",
     endDate: "2021-01-23T19:00:00",
     eventName: "Dinner & Learn",
-    subtitle: "",
+    subtitle: "How to Create an Epic Founding Team",
     location: "Hopin - Sessions"
   },
   {
@@ -175,6 +182,13 @@ const schedule = [
   },
   {
     startDate: "2021-01-24T12:30:00",
+    endDate: "2021-01-24T13:00:00",
+    eventName: "Keynote Speaker",
+    subtitle: "Duke Butler (Head of DevOps Adoptionat RBC)",
+    location: "Hopin - Stage"
+  },
+  {
+    startDate: "2021-01-24T13:00:00",
     endDate: "2021-01-24T14:00:00",
     eventName: "Closing Ceremony",
     subtitle: "",
