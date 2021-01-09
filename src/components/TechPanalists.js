@@ -7,6 +7,7 @@ import google from "../assets/img/speakers/logos/google.png";
 import cc from "../assets/img/speakers/logos/10kc.png";
 import opencare from "../assets/img/speakers/logos/opencare.png";
 import ibm from "../assets/img/sponsorLogos/ibm.png";
+import elastic from "../assets/img/speakers/logos/elastic.png";
 
 
 // Mentor headshots
@@ -15,6 +16,7 @@ import stefan from "../assets/img/mentors/headshots/StefanSokic.jpg";
 import primrose from "../assets/img/speakers/headshots/PrimroseC.jpeg";
 import jess from "../assets/img/speakers/headshots/JessicaN.jpeg";
 import michael from "../assets/img/mentors/headshots/MichaelD.jpg";
+import devon from "../assets/img/speakers/headshots/DevonThomson.jpg";
 
 
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
@@ -22,12 +24,13 @@ const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 const mentors = [
   {
     name: "Michael Dowling",
-    title: "Software Development Engineer",
-    headshot: michael,
-    companyLogo: aws,
-    companyName: "AWS",
-    companyUrl: "https://aws.amazon.com/",
-    logoHeight: "50px"
+    title: "Senior Software Engineer",
+    headshot: devon,
+    companyLogo: elastic,
+    companyName: "Elastic",
+    companyUrl: "https://www.elastic.co/",
+    logoHeight: "50px",
+    logoMarginTop:"-5px"
   },
   {
     name: "Primrose Chareka",
@@ -64,7 +67,8 @@ const mentors = [
     companyLogo: ibm,
     companyName: "IBM",
     companyUrl: "https://www.ibm.com/ca-en",
-    logoHeight: "30px"
+    logoHeight: "30px",
+    logoMarginTop: "5px"
   }
 ];
 
