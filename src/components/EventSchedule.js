@@ -38,7 +38,7 @@ const schedule = [
     endDate: "2021-01-22T20:30:00",
     eventName: "Team Formation & Finding Hackerspace",
     subtitle: "",
-    location: "Discord & Outside Platforms"
+    location: "Discord & Glimpse"
   },
   {
     startDate: "2021-01-22T20:30:00",
@@ -49,8 +49,8 @@ const schedule = [
   },
   {
     startDate: "2021-01-22T21:00:00",
-    endDate: "2021-01-22T21:45:00",
-    eventName: "Workshop | DCL",
+    endDate: "2021-01-22T21:55:00",
+    eventName: "Workshop | DCL (Data Science)",
     subtitle:"",
     location: "Hopin - Sessions"
   },
@@ -63,28 +63,28 @@ const schedule = [
   },
   {
     startDate: "2021-01-23T08:00:00",
-    endDate: "2021-01-23T09:00:00",
-    eventName: "Speaker #1 | Jeff Howell Alayacare",
-    subtitle: "",
+    endDate: "2021-01-23T08:55:00",
+    eventName: "Breakfast & Learn",
+    subtitle: "Networking and Job Search",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T09:00:00",
-    endDate: "2021-01-23T09:45:00",
+    endDate: "2021-01-23T09:55:00",
     eventName: "Workshop | Microsoft",
-    subtitle: "",
+    subtitle: "Machine Learning - Creating and Testing your own ML model using Azure",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T10:00:00",
-    endDate: "2021-01-23T10:45:00",
+    endDate: "2021-01-23T10:55:00",
     eventName: "Workshop | FDM",
-    subtitle: "",
+    subtitle: "Java Multi-Threading",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T11:00:00",
-    endDate: "2021-01-23T11:45:00",
+    endDate: "2021-01-23T11:55:00",
     eventName: "Panel Talk | Women in STEM",
     subtitle: "",
     location: "Hopin - Sessions"
@@ -108,20 +108,20 @@ const schedule = [
     endDate: "2021-01-23T15:30:00",
     eventName: "Career Fair",
     subtitle: "",
-    location: "Hopin & Discord"
+    location: "Hopin - Expo"
   },
   {
     startDate: "2021-01-23T16:00:00",
-    endDate: "2021-01-23T16:45:00",
+    endDate: "2021-01-23T16:55:00",
     eventName: "Workshop | Sherpa",
-    subtitle: "",
+    subtitle: "Iterations - Tools to help you prototype, design and iterate fast!",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T17:00:00",
-    endDate: "2021-01-23T17:45:00",
+    endDate: "2021-01-23T17:55:00",
     eventName: "Workshop | GoDaddy",
-    subtitle: "",
+    subtitle: "Software Development",
     location: "Hopin - Sessions"
   },
   {
@@ -133,31 +133,31 @@ const schedule = [
   },
   {
     startDate: "2021-01-23T18:30:00",
-    endDate: "2021-01-23T19:00:00",
+    endDate: "2021-01-23T18:55:00",
     eventName: "Dinner & Learn",
     subtitle: "How to Create an Epic Founding Team",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T19:00:00",
-    endDate: "2021-01-23T19:45:00",
+    endDate: "2021-01-23T19:55:00",
     eventName: "Panel Talk | Life as a Dev",
     subtitle: "",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T20:00:00",
-    endDate: "2021-01-23T20:45:00",
+    endDate: "2021-01-23T20:55:00",
     eventName: "Workshop | DDQIC",
-    subtitle: "",
+    subtitle: "Entrepreneurship/Innovation in the Technical World",
     location: "Hopin - Sessions"
   },
   {
     startDate: "2021-01-23T22:00:00",
     endDate: "2021-01-23T23:00:00",
     eventName: "Mini Event",
-    subtitle: "",
-    location: "Discord or Hopin"
+    subtitle: "Slideshow Karaoke",
+    location: "Discord"
   },
   {
     startDate: "2021-01-24T08:15:00",
@@ -171,7 +171,7 @@ const schedule = [
     endDate: "",
     eventName: "Hacking Ends!",
     subtitle: "",
-    location: ""
+    location: "Devpost"
   },
   {
     startDate: "2021-01-24T09:30:00",
