@@ -23,7 +23,7 @@ const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
 const mentors = [
   {
-    name: "Michael Dowling",
+    name: "Devon Thomson",
     title: "Senior Software Engineer",
     headshot: devon,
     companyLogo: elastic,
