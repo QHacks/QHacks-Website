@@ -51,24 +51,15 @@ const mentors = [
     logoHeight: "60px",
     logoMarginTop: "-10px"
   },
-  // {
-  //   name: "Zack Harley",
-  //   title: "Software Development Engineer ",
-  //   headshot: zackh,
-  //   companyLogo: cc,
-  //   companyName: "10k coffees",
-  //   companyUrl: "",
-  //   logoHeight: "30px"
-  // },
   {
-    name: "Jessica Nahulan",
-    title: "Software Development Engineer",
-    headshot: jess,
-    companyLogo: ibm,
-    companyName: "IBM",
-    companyUrl: "https://www.ibm.com/ca-en",
-    logoHeight: "30px",
-    logoMarginTop: "5px"
+    name: "Zackery Harley",
+    title: "Software Development Engineer ",
+    headshot: zackh,
+    companyLogo: cc,
+    companyName: "10k coffees",
+    companyUrl: "https://www.tenthousandcoffees.com/",
+    logoHeight: "80px",
+    logoMarginTop:"-20px"
   }
 ];
 
