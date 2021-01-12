@@ -184,7 +184,7 @@ const schedule = [
     startDate: "2021-01-24T12:30:00",
     endDate: "2021-01-24T13:00:00",
     eventName: "Keynote Speaker",
-    subtitle: "Duke Butler (Head of DevOps Adoptionat RBC)",
+    subtitle: "Duke Butler (Head of DevOps Adoption at RBC)",
     location: "Hopin - Stage"
   },
   {
