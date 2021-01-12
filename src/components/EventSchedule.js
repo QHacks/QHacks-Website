@@ -29,9 +29,9 @@ const schedule = [
   {
     startDate: "2021-01-22T18:30:00",
     endDate: "2021-01-22T20:00:00",
-    eventName: "Opening Ceremony",
+    eventName: "Opening Ceremony & Fireside Chat",
     subtitle: "",
-    location: "Hopin - Stage"
+    location: "Hopin - Stage/Session"
   },
   {
     startDate: "2021-01-22T20:00:00",
@@ -162,8 +162,8 @@ const schedule = [
   {
     startDate: "2021-01-24T08:15:00",
     endDate: "2021-01-24T09:00:00",
-    eventName: "echoAR : Build a VR App in 15 Minutes",
-    subtitle: "",
+    eventName: "Breakfast & Learn",
+    subtitle: "echoAR : Build a VR App in 15 Minutes",
     location: "Hopin - Sessions"
   },
   {
