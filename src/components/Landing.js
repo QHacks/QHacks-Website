@@ -21,10 +21,15 @@ const landingCSS = {
     backgroundSize: "auto 550px"
   },
   "@media(max-width: 820px)": {
-    height: "900px",
-    marginTop: "50px",
+    height: "750px",
+    marginTop: "0px",
     background: `url(${waveLineRed}) no-repeat center bottom`
-  }
+  },
+  "@media(max-width: 450px)": {
+    height: "650px",
+    marginTop: "0px",
+    background: "none"
+  },
 };
 
 const applyButtonCSS = {
@@ -182,7 +187,7 @@ useEffect(()=>{
             <br />
             Join us for an unforgettable experience!
           </h2>
-           <ActionButton
+           {/* <ActionButton
             dataCy="apply-button"
             backgroundColor="#696969"
             foregroundColor="#ffffff"
@@ -193,7 +198,7 @@ useEffect(()=>{
             type="rounded"
           >
             Applications are now closed
-          </ActionButton>
+          </ActionButton> */}
         </div>
       </ContentWrapper>
     </section>

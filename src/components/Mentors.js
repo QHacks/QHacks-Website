@@ -21,7 +21,10 @@ import amazon from "../assets/img/mentors/logos/amazon.png";
 import coursera from "../assets/img/mentors/logos/coursera.png";
 import ontario from "../assets/img/mentors/logos/ontario.png";
 import mars from "../assets/img/mentors/logos/mars.png";
-
+import vs from "../assets/img/mentors/logos/vs.png";
+import uhn from "../assets/img/mentors/logos/uhn.png";
+import mosaic from "../assets/img/sponsorLogos/Mosaic.png";
+import bloomberg from "../assets/img/mentors/logos/bloomberg.png";
 
 // Mentor headshots
 import chelsea from "../assets/img/mentors/headshots/ChelseaPham.jpg";
@@ -48,6 +51,11 @@ import stefan from "../assets/img/mentors/headshots/StefanSokic.jpg";
 import simon from "../assets/img/mentors/headshots/SimonLiu.jpeg";
 import garret from "../assets/img/mentors/headshots/GarretCree.jpeg";
 import emily from "../assets/img/mentors/headshots/EmilyTamfo.jpeg";
+import ghosh from "../assets/img/mentors/headshots/BiswarupGhosh.jpg";
+import andrew from "../assets/img/mentors/headshots/AndrewLiu.jpg";
+import kevin from "../assets/img/mentors/headshots/KevinZuern.jpg";
+import derek from "../assets/img/mentors/headshots/DerekVogt.jpg";
+import dan from "../assets/img/mentors/headshots/DanKim.jpg";
 
 
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
@@ -220,6 +228,15 @@ const mentors = [
     logoHeight:"80px"
   },
   {
+    name: "Biswarup Ghosh",
+    title: "Senior Data Scientist",
+    headshot: ghosh,
+    companyLogo: accenture,
+    companyName: "Accenture",
+    companyUrl: "https://www.accenture.com/ca-en",
+    logoHeight:"80px"
+  },
+  {
     name: "Harry Lewis",
     title: "Software Engineer",
     headshot: harry,
@@ -230,13 +247,24 @@ const mentors = [
     logoMarginTop: "10px"
   },
   {
+    name: "Derek Vogt",
+    title: "Co-Founder & CTO",
+    headshot: derek,
+    companyLogo: mosaic,
+    companyName: "Mosaic",
+    companyUrl: "https://www.mosaicmfg.com/",
+    logoHeight:"80px",
+    logoMarginTop:"20px"
+  },
+  {
     name: "Kerri-Lynn McAllister",
     title: "Tech Leader, Founder of Pawzy",
     headshot: kerri,
     companyLogo: pawzy,
     companyName: "Pawzy",
     companyUrl: "https://pawzy.co/",
-    logoHeight:"60px"
+    logoHeight:"80px",
+    logoMarginTop:"-10px"
   },
   {
     name: "Manoochehr Akhlaghinia",
@@ -247,6 +275,34 @@ const mentors = [
     companyUrl: "https://www.accenture.com/ca-en",
     logoHeight:"80px"
   },
+  {
+    name: "Andrew Liu",
+    title: "Software Engineer",
+    headshot: andrew,
+    companyLogo: vs,
+    companyName: "VerticalScope Inc",
+    companyUrl: "https://www.verticalscope.com/",
+    logoHeight:"60px",
+    logoMarginTop:"25px"
+  },
+  {
+    name: "Kevin Zuern",
+    title: "Senior Software Engineer ",
+    headshot: kevin,
+    companyLogo: uhn,
+    companyName: "University Health Network",
+    companyUrl: "https://www.uhn.ca/",
+    logoHeight:"30px"
+  },
+  {
+    name: "Dan Kim",
+    title: "Senior Software Engineer",
+    headshot: dan,
+    companyLogo: bloomberg,
+    companyName: "Bloomberg LP",
+    companyUrl: "https://www.bloomberg.com/canada",
+    logoHeight:"30px"
+  }
 ];
 
 export default () => (

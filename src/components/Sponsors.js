@@ -16,7 +16,7 @@ import fdm from "../assets/img/sponsorLogos/Fdm.jpg";
 import godaddy from "../assets/img/sponsorLogos/godaddy.png";
 import kuzo from "../assets/img/sponsorLogos/Kuzo.png";
 import ms from "../assets/img/sponsorLogos/Microsoft.png";
-import mosaic from "../assets/img/sponsorLogos/Mosaic.jpg";
+import mosaic from "../assets/img/sponsorLogos/Mosaic.png";
 import pwc from "../assets/img/sponsorLogos/PwC.png";
 import rogers from "../assets/img/sponsorLogos/Rogers.png";
 import stickermule from "../assets/img/sponsorLogos/Stickermule.png";
@@ -315,6 +315,10 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                "@media(max-width: 920px)": {
+                  marginTop:"-40px",
+                  marginBottom: "15px"
+                },
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px"
@@ -325,16 +329,16 @@ const Sponsors = () => (
                 <img
                   src={mosaic}
                   css={{
-                    width: "150px",
-                    marginTop:"15px",
+                    width: "250px",
+                    marginTop:"50px",
                     "@media(max-width: 920px)": {
-                      width: "120px",
-                      marginBottom: "30px"
+                      width: "210px",
+                      marginTop:"30px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "120px",
+                      width: "140px",
                       marginBottom: "10px",
-                      marginTop:"0px"
+                      marginTop:"-10px"
                     }
                   }}
                   alt="Mosaic Logo"
@@ -347,7 +351,7 @@ const Sponsors = () => (
                     width: "150px",
                     marginTop:"15px",
                     "@media(max-width: 920px)": {
-                      width: "120px"
+                      width: "110px"
                     },
                     "@media(max-width: 610px)": {
                       width: "100px",
@@ -365,11 +369,11 @@ const Sponsors = () => (
                     width: "100px",
                     marginTop: "45px",
                     "@media(max-width: 920px)": {
-                      width: "95px",
+                      width: "85px",
                       marginTop:"25px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "70px",
                       marginBottom: "10px",
                       marginTop:"0px"
                     }
@@ -384,7 +388,7 @@ const Sponsors = () => (
                     width: "100px",
                     marginTop: "45px",
                     "@media(max-width: 920px)": {
-                      width: "96px",
+                      width: "85px",
                       marginTop:"25px",
                       marginBottom: "20px"
                     },
@@ -403,6 +407,9 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr",
+                "@media(max-width: 920px)": {
+                  marginTop:"20px"
+                },
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px"
@@ -485,8 +492,7 @@ const Sponsors = () => (
                       width: "120px",
                       marginTop: "-20px",
                       "@media(max-width: 920px)": {
-                        width: "80px",
-                        marginTop: "-70px",
+                        width: "80px"
                       },
                       "@media(max-width: 610px)": {
                         marginTop:"-100px",
