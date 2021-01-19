@@ -58,7 +58,7 @@ const schedule = [
     startDate: "2021-01-22T22:00:00",
     endDate: "2021-01-22T23:00:00",
     eventName: "(Almost) Midnight Snack",
-    subtitle: "",
+    subtitle: "Video Stream & Kahoot",
     location: "Discord - Games"
   },
   {
@@ -107,7 +107,7 @@ const schedule = [
     startDate: "2021-01-23T14:00:00",
     endDate: "2021-01-23T15:30:00",
     eventName: "Career Fair",
-    subtitle: "",
+    subtitle: "+ Scattergories in Discord - Games ",
     location: "Hopin - Expo"
   },
   {
@@ -128,7 +128,7 @@ const schedule = [
     startDate: "2021-01-23T18:00:00",
     endDate: "2021-01-23T18:30:00",
     eventName: "Resume Roast",
-    subtitle: "Hosted by CTO & Co-founder of Loopio",
+    subtitle: "Hosted by Zack Harley from Ten Thousand Coffees",
     location: "Hopin - Sessions"
   },
   {
@@ -156,7 +156,7 @@ const schedule = [
     startDate: "2021-01-23T22:00:00",
     endDate: "2021-01-23T23:00:00",
     eventName: "Mini Event",
-    subtitle: "Slideshow Karaoke",
+    subtitle: "Slideshow Karaoke & Pop Culture Jeopardy",
     location: "Discord"
   },
   {
@@ -179,6 +179,13 @@ const schedule = [
     eventName: "Demo Time + Judging",
     subtitle: "Games, Draws & Prizes!",
     location: "Discord & Devpost"
+  },
+  {
+    startDate: "2021-01-24T09:30:00",
+    endDate: "2021-01-24T11:30:00",
+    eventName: "Games!",
+    subtitle: "Among Us, Drawphone, Kahoot, Scribbl.io & Family Feud!",
+    location: "Discord - Games"
   },
   {
     startDate: "2021-01-24T12:30:00",
