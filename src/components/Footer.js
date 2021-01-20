@@ -9,7 +9,7 @@ import logo from "../assets/img/logo/qhacksCrown-white.svg";
 import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
 import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
-import linkedin from "../assets/img/icons/socialLinkedin.svg"
+import linkedin from "../assets/img/icons/socialLlnkedin.svg"
 
 const [smallScreens] = ["@media(max-width: 1100px)"];
 
