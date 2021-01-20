@@ -5,7 +5,6 @@ import ContentWrapper from "./ContentWrapper";
 import FooterGraphic from "../components/FooterGraphic";
 
 import mail from "../assets/img/icons/socialMail.svg";
-import twitter from "../assets/img/icons/socialTwitter.svg";
 import logo from "../assets/img/logo/qhacksCrown-white.svg";
 import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
