@@ -66,7 +66,7 @@ const mentors = [
     title: "Senior Associate, Cybersecurity, Privacy, and Financial Crime",
     headshot: margo,
     companyLogo: pwc,
-    companyName: "PWC",
+    companyName: "PwC",
     companyUrl: "https://www.pwc.com/",
     logoHeight: "30px"
   },
@@ -75,7 +75,7 @@ const mentors = [
     title: "Advisory Associate, Cybersecurity & Privacy",
     headshot: chelsea,
     companyLogo: pwc,
-    companyName: "PWC",
+    companyName: "PwC",
     companyUrl: "https://www.pwc.com/",
     logoHeight: "30px"
   },
@@ -251,7 +251,7 @@ const mentors = [
     title: "Co-Founder & CTO",
     headshot: derek,
     companyLogo: mosaic,
-    companyName: "Mosaic",
+    companyName: "Mosaic Manufacturing",
     companyUrl: "https://www.mosaicmfg.com/",
     logoHeight:"80px",
     logoMarginTop:"20px"
@@ -280,7 +280,7 @@ const mentors = [
     title: "Software Engineer",
     headshot: andrew,
     companyLogo: vs,
-    companyName: "VerticalScope Inc",
+    companyName: "VerticalScope",
     companyUrl: "https://www.verticalscope.com/",
     logoHeight:"60px",
     logoMarginTop:"25px"
@@ -299,7 +299,7 @@ const mentors = [
     title: "Senior Software Engineer",
     headshot: dan,
     companyLogo: bloomberg,
-    companyName: "Bloomberg LP",
+    companyName: "Bloomberg",
     companyUrl: "https://www.bloomberg.com/canada",
     logoHeight:"30px"
   }

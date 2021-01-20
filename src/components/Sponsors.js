@@ -26,6 +26,7 @@ import voiceflow from "../assets/img/sponsorLogos/Voiceflow.png";
 import sherpa from "../assets/img/sponsorLogos/sherpa.png";
 import ibm from "../assets/img/sponsorLogos/ibm.png";
 import protoio from "../assets/img/sponsorLogos/Protoio.svg";
+import flik from "../assets/img/sponsorLogos/flik.png"
 
 const Sponsors = () => (
   <section
@@ -338,7 +339,7 @@ const Sponsors = () => (
                     "@media(max-width: 610px)": {
                       width: "140px",
                       marginBottom: "10px",
-                      marginTop:"-10px"
+                      marginTop:"5px"
                     }
                   }}
                   alt="Mosaic Logo"
@@ -393,7 +394,7 @@ const Sponsors = () => (
                       marginBottom: "20px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "80px",
+                      width: "73px",
                       marginTop: "15px"
                     }
                   }}
@@ -477,7 +478,7 @@ const Sponsors = () => (
             <div 
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr",
+                gridTemplateColumns: "1fr 1fr 1fr 1fr",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px",
@@ -520,6 +521,25 @@ const Sponsors = () => (
                   }}
                   alt="Protoio Logo"
                 />
+              </SponsorLink>
+              <SponsorLink url="">
+                  <img
+                    src={flik}
+                    css={{
+                      width: "90px",
+                      marginTop: "-40px",
+                      "@media(max-width: 920px)": {
+                        width: "70px",
+                        marginTop:"-40px"
+                      },
+                      "@media(max-width: 610px)": {
+                        marginTop:"15px",
+                        marginBottom:"15px",
+                        width: "60px"
+                      }
+                    }}
+                    alt="Flik Logo"
+                  />
               </SponsorLink>
               <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
                 <img

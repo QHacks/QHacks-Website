@@ -27,7 +27,7 @@ const mentors = [
     title: "Senior Software Engineer",
     headshot: devon,
     companyLogo: elastic,
-    companyName: "Elastic",
+    companyName: "Elastic NV",
     companyUrl: "https://www.elastic.co/",
     logoHeight: "50px",
     logoMarginTop:"-5px"
@@ -56,7 +56,7 @@ const mentors = [
     title: "Software Development Engineer ",
     headshot: zackh,
     companyLogo: cc,
-    companyName: "10k coffees",
+    companyName: "Ten Thousand Coffees",
     companyUrl: "https://www.tenthousandcoffees.com/",
     logoHeight: "80px",
     logoMarginTop:"-20px"

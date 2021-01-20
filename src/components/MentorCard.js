@@ -43,20 +43,23 @@ export default ({
       >
         {name}
       </h2>
-      <p>{title}</p>
+      <p css={{ "@media (max-width: 912px)": {display:"None"}}}>{title}</p> 
+      <p css={{ "@media (min-width: 912px)": {display:"None"}}}>{title} @ {companyName}</p>
       <br />
-      <a href={companyUrl} target="_blank" rel="external noopener">
-        <img
-          css={{
-            width: logoWidth,
-            height: logoHeight,
-            marginBottom: "32px",
-            marginTop: logoMarginTop
-          }}
-          src={companyLogo}
-          alt={companyName}
-        />
-      </a>
+      <div css={{ "@media (max-width: 912px)": {display:"None"}}}> 
+        <a href={companyUrl} target="_blank" rel="external noopener">
+          <img
+            css={{
+              width: logoWidth,
+              height: logoHeight,
+              marginBottom: "32px",
+              marginTop: logoMarginTop
+            }}
+            src={companyLogo}
+            alt={companyName}
+          />
+        </a>
+      </div>
     </div>
   </div>
 );

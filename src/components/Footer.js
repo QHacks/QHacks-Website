@@ -10,6 +10,7 @@ import logo from "../assets/img/logo/qhacksCrown-white.svg";
 import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
 import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
+import linkedin from "../assets/img/icons/socialLinkedin.svg"
 
 const [smallScreens] = ["@media(max-width: 1100px)"];
 
@@ -49,16 +50,16 @@ const socialLinks = [
     dataCy: "footer-email-link"
   },
   {
-    icon: twitter,
-    url: "https://twitter.com/qhacks2020",
-    label: "Follow us on Twitter",
-    dataCy: "footer-twitter-link"
-  },
-  {
     icon: facebook,
     url: "https://fb.com/qhacks",
     label: "Like us on Facebook",
     dataCy: "footer-facebook-link"
+  },
+  {
+    icon: linkedin,
+    url: "https://www.linkedin.com/company/qhacks/",
+    label: "Follow us on LinkedIn",
+    dataCy: "footer-linkedin-link"
   },
   {
     icon: instagram,
