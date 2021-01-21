@@ -9,7 +9,8 @@ import logo from "../assets/img/logo/qhacksCrown-white.svg";
 import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
 import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
-import linkedin from "../assets/img/icons/socialLinkedin.svg"
+import linkedin from "../assets/img/icons/socialLinkedin.svg";
+import twitter from "../assets/img/icons/socialTwitter.svg";
 
 const [smallScreens] = ["@media(max-width: 1100px)"];
 
@@ -65,6 +66,12 @@ const socialLinks = [
     url: "https://www.instagram.com/qhacks21/",
     label: "Follow us on Instagram",
     dataCy: "footer-instagram-link"
+  },
+  {
+    icon: twitter,
+    url: "https://twitter.com/QHacks21",
+    label: "Follow us on Twitter",
+    dataCy: "footer-twitter-link"
   }
 ];
 
@@ -220,7 +227,7 @@ const Footer = () => (
                 [smallScreens]: {
                   marginLeft: "auto",
                   marginRight: "auto",
-                  gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                  gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
                   maxWidth: "196px",
                   paddingTop: "0px",
                   paddingBottom: "60px"
