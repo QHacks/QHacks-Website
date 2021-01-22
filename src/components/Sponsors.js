@@ -4,7 +4,8 @@ import SponsorLink from "./SponsorLink";
 import ContentWrapper from "./ContentWrapper";
 import PartnerPackage from "./PartnerPackage";
 
-import mmieLogo from "../assets/img/sponsorLogos/mmie.svg";
+// import mmieLogo from "../assets/img/sponsorLogos/mmie.svg";
+import mmieLogo from "../assets/img/sponsorLogos/mmie.jpg";
 import mlhLogo from "../assets/img/sponsorLogos/mlh-black.svg";
 import kingstonLogo from "../assets/img/sponsorLogos/kingston.svg";
 import aquanow from "../assets/img/sponsorLogos/Aquanow.png";
@@ -279,7 +280,8 @@ const Sponsors = () => (
                   css={{
                     width: "150px",
                     "@media(max-width: 920px)": {
-                      width: "120px"
+                      marginTop:"20px",
+                      width: "100px"
                     },
                     "@media(max-width: 610px)": {
                       width: "100px",
@@ -593,13 +595,13 @@ const Sponsors = () => (
                   <img
                     src={ddqic}
                     css={{
-                      width: "350px",
+                      width: "300px",
                       "@media(max-width: 920px)": {
-                        width: "200px",
+                        width: "160px",
                         marginBottom: "30px"
                       },
                       "@media(max-width: 610px)": {
-                        width: "180px",
+                        width: "150px",
                         marginBottom: "10px",
                         marginTop:"30px"
                       }
@@ -612,15 +614,15 @@ const Sponsors = () => (
                   src={mmieLogo}
                   css={{
                     width: "400px",
-                    marginTop:"80px",
+                    marginTop:"55px",
                     marginLeft:"30px",
                     "@media(max-width: 920px)": {
                       width: "200px",
-                      marginTop:"50px",
+                      marginTop:"35px",
                       marginBottom: "30px",
                     },
                     "@media(max-width: 610px)": {
-                      width: "180px",
+                      width: "220px",
                       marginBottom: "10px",
                       marginTop:"30px"
                     }
