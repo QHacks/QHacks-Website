@@ -90,7 +90,7 @@ const OpeningSummary = () => (
           >
             <iframe
               title="2021 QHacks Promo Video"
-              src="https://www.youtube.com/embed/PU4f5WU0cWw?rel=0&amp;controls=0&amp;showinfo=0"
+              src="https://www.youtube.com/embed/DDmkCcMQYBE?rel=0&amp;controls=0&amp;showinfo=0"
               allow="autoplay; encrypted-media"
               frameBorder="0"
               webkitallowfullscreen="true"
