@@ -524,7 +524,7 @@ const Sponsors = () => (
                   alt="Protoio Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="">
+              <SponsorLink url="https://weareflik.com/">
                   <img
                     src={flik}
                     css={{
