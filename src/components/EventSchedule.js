@@ -156,7 +156,7 @@ const schedule = [
     startDate: "2021-01-23T22:00:00",
     endDate: "2021-01-23T23:00:00",
     eventName: "Mini Event",
-    subtitle: "Slideshow Karaoke & Pop Culture Jeopardy",
+    subtitle: "Bob Ross MS Paint Night & Pop Culture Jeopardy",
     location: "Discord"
   },
   {
@@ -184,7 +184,7 @@ const schedule = [
     startDate: "2021-01-24T09:30:00",
     endDate: "2021-01-24T11:30:00",
     eventName: "Games!",
-    subtitle: "Among Us, Drawphone, Kahoot, Scribbl.io & Family Feud!",
+    subtitle: "Among Us, Drawphone, Kahoot & Family Feud!",
     location: "Discord - Games"
   },
   {
