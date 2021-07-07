@@ -79,7 +79,7 @@ const PartnerPackage = () => {
               }
             }}
           >
-            angela@qhacks.io
+            partnership@qhacks.io
           </a>
         </p>
         <ActionButton
