@@ -1,6 +1,6 @@
 import React, { createRef, useEffect } from "react";
 import ActionButton from "./ActionButton";
-import partnershipPackage from "../assets/partnershipPackage2021.pdf";
+import partnershipPackage from "../assets/partnershipPackage2022.pdf";
 
 import lottie from "lottie-web";
 import animationImage from "../assets/animations/mailbox.json";
